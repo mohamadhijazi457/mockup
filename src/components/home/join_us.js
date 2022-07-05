@@ -20,7 +20,7 @@ const JoinUs = () => {
 
   return (
     <JoinUsContainer>
-      <div style={{ textAlign: 'center' }}>
+      <div>
         {screenWidth > 600
         ? <h1>Join us on<br />Mockup Community</h1>
         : <h1>Join us onMockup<br />Community</h1>}
