@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Styled from 'styled-components';
-import Appicon from '../images/appicon.png';
+import Appicon from '../../images/appicon.png';
 const Navbar = () => {
     const [screenWidth, setScreenWidth] = useState(0);
   

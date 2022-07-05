@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Styled from 'styled-components';
-import FeaturedOnAppStore from '../images/FeaturedonAppStore.png';
-import DownloadApp from '../images/DownloadontheAppStorebutton.png';
+import FeaturedOnAppStore from '../../images/FeaturedonAppStore.png';
+import DownloadApp from '../../images/DownloadontheAppStorebutton.png';
 const FirstPage = () => {
     const [screenWidth, setScreenWidth] = useState(0);
   

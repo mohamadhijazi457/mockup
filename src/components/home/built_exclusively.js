@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import ClockIcon from '../images/clock_icon.svg';
-import MailIcon from '../images/mail_icon.svg';
-import MapsIcon from '../images/maps_icon.svg';
-import Logo from '../images/mockup_icon.svg';
-import PhotosIcon from '../images/photos_icon.svg';
-import PodcastIcon from '../images/podcast_icon.svg';
-import SettingsIcon from '../images/settings_icon.svg';
+import ClockIcon from '../../images/clock_icon.svg';
+import MailIcon from '../../images/mail_icon.svg';
+import MapsIcon from '../../images/maps_icon.svg';
+import Logo from '../../images/mockup_icon.svg';
+import PhotosIcon from '../../images/photos_icon.svg';
+import PodcastIcon from '../../images/podcast_icon.svg';
+import SettingsIcon from '../../images/settings_icon.svg';
 
 const BuiltExclusively = () => {
   const [screenWidth, setScreenWidth] = useState(0);

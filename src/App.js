@@ -1,17 +1,18 @@
 import React from 'react';
-import FirstPage from './components/firstpage';
-import Navbar from './components/navbar';
-import Footer from './components/footer';
-import BuiltExclusively from './components/built_exclusively';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './components/home/home';
+import Support from './components/support/support';
+import Policies from './components/policies/policies';
 
 const App = () => {
   return (
-    <>
-      <Navbar />
-      <FirstPage />
-      <BuiltExclusively />
-      <Footer />
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/support' element={<Support />} />
+        <Route path='/policies' element={<Policies />} />
+      </Routes>
+    </Router>
   );
 }
 
