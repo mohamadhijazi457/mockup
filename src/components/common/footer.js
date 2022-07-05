@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import InstaLogo from '../images/instagram_icon.svg';
-import TwitterLogo from '../images/twitter_icon.svg';
-import TiktokLogo from '../images/tiktok_icon.svg';
-import FacebookLogo from '../images/facebook_icon.svg';
+import InstaLogo from '../../images/instagram_icon.svg';
+import TwitterLogo from '../../images/twitter_icon.svg';
+import TiktokLogo from '../../images/tiktok_icon.svg';
+import FacebookLogo from '../../images/facebook_icon.svg';
 
 const Footer = () => {
   const [screenWidth, setScreenWidth] = useState(0);

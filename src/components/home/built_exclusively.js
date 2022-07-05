@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import ClockIcon from '../images/clock_icon.svg';
-import MailIcon from '../images/mail_icon.svg';
-import MapsIcon from '../images/maps_icon.svg';
-import Logo from '../images/mockup_icon.svg';
-import PhotosIcon from '../images/photos_icon.svg';
-import PodcastIcon from '../images/podcast_icon.svg';
-import SettingsIcon from '../images/settings_icon.svg';
+import ClockIcon from '../../images/clock_icon.svg';
+import MailIcon from '../../images/mail_icon.svg';
+import MapsIcon from '../../images/maps_icon.svg';
+import Logo from '../../images/mockup_icon.svg';
+import PhotosIcon from '../../images/photos_icon.svg';
+import PodcastIcon from '../../images/podcast_icon.svg';
+import SettingsIcon from '../../images/settings_icon.svg';
 
 const BuiltExclusively = () => {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -58,7 +58,7 @@ const BuiltExclusively = () => {
       </FlexWrapper>
 
       <div style={{ textAlign: 'center', marginTop: '50px' }}>
-        {screenWidth >= 600
+        {screenWidth > 600
         ? <div>
             <p style={{ fontSize: '30px', marginBottom: '10px' }}>Built exclusively for Apple</p>
             <p style={{ maxWidth: '550px', margin: '0 auto', width: '60%' }}>

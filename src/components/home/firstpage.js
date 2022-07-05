@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import Styled from 'styled-components';
-import FeaturedOnAppStore from '../images/Featured on App Store.svg';
-import DownloadApp from '../images/Download on the App Store button.svg';
-import IpadImg from '../images/iPad Pro 11 - Space Gray - Landscape.svg';
-import PenImg from '../images/apple pencil.svg';
+import FeaturedOnAppStore from '../../images/Featured on App Store.svg';
+import DownloadApp from '../../images/Download on the App Store button.svg';
+import IpadImg from '../../images/iPad Pro 11 - Space Gray - Landscape.svg';
+import PenImg from '../../images/apple pencil.svg';
 
 const FirstPage = () => {
     const [screenWidth, setScreenWidth] = useState(0);
