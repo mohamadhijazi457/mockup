@@ -36,40 +36,33 @@ const Navbar = () => {
   justify-content:space-between;
   padding: 5px 10px 5px 30px;
   border-bottom:0.25px solid black ;
-  `
+  `;
   const LeftContainer=Styled.div`
   display:flex;
   flex-direction: row;
   align-items: center;
   justify-content:space-between;
-
- 
-
-  `
+  `;
   const LogoIcon = Styled.div `
   display:flex;
   flex-direction: row;
   align-items: center;
   padding: 0 17px;
-  
-  `
+  `;
   const NameContainer = Styled.div`
   display:flex;
   flex-direction: row;
   align-items: center; 
   font-family:HelveticaNeue-Medium;
-
-  `
+  `;
  
   const RightSide = Styled.div `
-  flex: 0 0 80px;
+  flex: 0 0 90px;
   margin-right:0;
   display:flex;
   flex-direction: row;
   align-items: center;
-
-
-  `
+  `;
   const GetAppbtn = Styled.div`
   display:flex;
   background-color: black;
@@ -82,7 +75,7 @@ const Navbar = () => {
   font-size: 10px;
   border-radius:5px;
   font-family:HelveticaNeue-Regular;
-  `
+  `;
 
   
   export default Navbar;
