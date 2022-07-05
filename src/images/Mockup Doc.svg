@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180" height="210" viewBox="0 0 180 210">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_297" data-name="Path 297" d="M840.694,393.8v52.3l51.778-.516L891.6,524.5l-83.123-2.235,7.076-130.534Z" transform="translate(-808.479 -391.732)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Mockup_Doc" data-name="Mockup Doc" transform="translate(-732 -6735.692)">
+    <path id="doc_3" data-name="doc 3" d="M17.573,144.029H91.556q8.684,0,13.128-4.478t4.444-13.095V58.217a21.337,21.337,0,0,0-.307-3.932,8.372,8.372,0,0,0-1.094-2.872,13.784,13.784,0,0,0-2.222-2.632L60.444,3.722a12.261,12.261,0,0,0-2.667-2.188A10.629,10.629,0,0,0,54.906.405a17.081,17.081,0,0,0-3.9-.376H17.573Q9.094.029,4.547,4.508T0,17.67V126.456q0,8.616,4.479,13.095T17.573,144.029Zm.137-3.35q-7.111,0-10.735-3.624T3.35,126.32V17.807q0-6.838,3.624-10.6T17.709,3.448H52.923V47.482q0,4.718,2.256,6.769T61.744,56.3h44.034V126.32q0,7.111-3.624,10.735t-10.735,3.624ZM61.88,52.952q-3.009,0-4.308-1.265t-1.3-4.342V4.337l48.616,48.615Z" transform="translate(760 6735.971)" fill="rgba(0,0,0,0.85)"/>
+    <g id="Mockup_shape" data-name="Mockup shape" transform="translate(-28.472 6343.96)">
+      <g id="Group_208" data-name="Group 208" transform="translate(808.479 391.732)" clip-path="url(#clip-path)">
+        <g id="Group_207" data-name="Group 207" transform="translate(20.259 0.949)">
+          <path id="Path_295" data-name="Path 295" d="M856.931,392.732v68.884l-11.175,59.195s-.222,1.111-2.456,1.111-1.98-.955-1.98-.955l-11.5-58.446V392.732Zm-7.816,69.831V392.732H837.451v69.831a4.093,4.093,0,0,0,4.093,4.093h3.477A4.093,4.093,0,0,0,849.115,462.563Z" transform="translate(-829.821 -392.732)"/>
+          <g id="Group_206" data-name="Group 206" transform="translate(5.604 101.586)">
+            <g id="Group_205" data-name="Group 205">
+              <path id="Path_296" data-name="Path 296" d="M843.557,503.684a21.9,21.9,0,0,1-7.433-1.572l-.4-2.356c.046.018,4.612,1.861,7.832,1.861s8.131-1.85,8.181-1.869l-.387,2.33A25.026,25.026,0,0,1,843.557,503.684Z" transform="translate(-835.725 -499.747)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="final_2.mockup" data-name="final 2.mockup" transform="translate(732 6925)" font-size="20" font-family="ArialMT, Arial"><tspan x="18.022" y="18">final 2.mockup</tspan></text>
+  </g>
+</svg>
