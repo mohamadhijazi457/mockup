@@ -1,13 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Shape from '../../images/shape.png';
 import BorderScreen from '../../images/border_screen.png';
 
 const JoinUs = () => {
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  useEffect(() => {
+    function handleResize() {
+      setScreenWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    
+    return () => { 
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [setScreenWidth]);
+
   return (
     <JoinUsContainer>
       <div style={{ textAlign: 'center' }}>
-        <h1>Join us on<br />Mockup Community</h1>
+        {screenWidth > 600
+        ? <h1>Join us on<br />Mockup Community</h1>
+        : <h1>Join us onMockup<br />Community</h1>}
       </div>
 
       <ShapeFlex>
@@ -22,8 +38,11 @@ const JoinUs = () => {
           <ShapeImage src={Shape} />
           <BorderImage src={BorderScreen} />
           <Rectangle />
-          <Text style={{ left: '5%', width: '270px' }}>Help us improve the app with your feedback. Add your suggestions and keep
-            us posted about bugs you’re facing.</Text>
+          {screenWidth > 600
+          ? <Text style={{ left: '5%', width: '270px' }}>Help us improve the app with your feedback. Add your suggestions and keep
+              us posted about bugs you’re facing.</Text>
+          : <Text style={{ left: '5%', width: '270px' }}>Help us improve the app with your feedback. Add your suggestions and keep
+            us posted about bugs you’re facing.</Text>}
         </ShapeContainer>
       </ShapeFlex>
 
@@ -44,8 +63,16 @@ const ShapeFlex = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-align: center;
   margin-top: 20px;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    
+    > div:nth-child(1) {
+      margin-bottom: 20px;
+    }
+  }
 `;
 
 const ShapeContainer = styled.div`
@@ -53,6 +80,10 @@ const ShapeContainer = styled.div`
   position: relative;
   top: 0;
   left: 0;
+
+  @media only screen and (max-width: 600px) {
+    margin-right: 0;
+  }
 `;
 
 const ShapeImage = styled.img`
@@ -94,6 +125,10 @@ const JoinButton = styled.button`
   font-weight: bold;
   margin: 25px 30px 0 0;
   cursor: pointer;
+
+  @media only screen and (max-width: 600px) {
+    margin-right: 0;
+  }
 `;
 
 export default JoinUs;

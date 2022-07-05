@@ -58,7 +58,7 @@ const BuiltExclusively = () => {
       </FlexWrapper>
 
       <div style={{ textAlign: 'center', marginTop: '50px' }}>
-        {screenWidth >= 600
+        {screenWidth > 600
         ? <div>
             <p style={{ fontSize: '30px', marginBottom: '10px' }}>Built exclusively for Apple</p>
             <p style={{ maxWidth: '550px', margin: '0 auto', width: '60%' }}>
