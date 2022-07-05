@@ -38,11 +38,8 @@ const JoinUs = () => {
           <ShapeImage src={Shape} />
           <BorderImage src={BorderScreen} />
           <Rectangle />
-          {screenWidth > 600
-          ? <Text style={{ left: '5%', width: '270px' }}>Help us improve the app with your feedback. Add your suggestions and keep
-              us posted about bugs you’re facing.</Text>
-          : <Text style={{ left: '5%', width: '270px' }}>Help us improve the app with your feedback. Add your suggestions and keep
-            us posted about bugs you’re facing.</Text>}
+          <Text style={{ left: '5%', width: '270px' }}>Help us improve the app with your feedback. Add your suggestions and keep
+            us posted about bugs you’re facing.</Text>
         </ShapeContainer>
       </ShapeFlex>
 
