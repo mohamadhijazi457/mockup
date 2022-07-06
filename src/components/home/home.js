@@ -8,6 +8,7 @@ import DarkLightModes from './dark_light_modes';
 import DiverseTemplates from './diversetemplates';
 import ExportOptions from './export_options';
 import ICloudSync from './iCloud_sync';
+import ShareExperience from './share_experience';
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <ICloudSync />
       <ExportOptions />
       <DarkLightModes />
+      <ShareExperience />
       <BuiltExclusively />
       <JoinUs />
       <Footer />
