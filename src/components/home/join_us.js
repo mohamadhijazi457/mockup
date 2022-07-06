@@ -23,7 +23,7 @@ const JoinUs = () => {
       <div>
         {screenWidth > 600
         ? <h1>Join us on<br />Mockup Community</h1>
-        : <h1>Join us onMockup<br />Community</h1>}
+        : <h1>Join us on Mockup<br />Community</h1>}
       </div>
 
       <ShapeFlex>

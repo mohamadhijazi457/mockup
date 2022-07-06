@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Styled from 'styled-components';
 import Appicon from '../../images/appicon.png';
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     const [screenWidth, setScreenWidth] = useState(0);
   
@@ -19,7 +21,7 @@ const Navbar = () => {
     return ( 
     <NavbarContainer>
       <LeftContainer>
-      <LogoIcon className="logo"><a href='#'><img src={Appicon} /></a></LogoIcon>  
+      <LogoIcon className="logo"><Link to='/'><img src={Appicon} /></Link></LogoIcon>  
       <NameContainer className="name">Mockup</NameContainer>
       </LeftContainer>
       <RightSide>
