@@ -4,6 +4,7 @@ import InstaLogo from '../../images/instagram_icon.svg';
 import TwitterLogo from '../../images/twitter_icon.svg';
 import TiktokLogo from '../../images/tiktok_icon.svg';
 import FacebookLogo from '../../images/facebook_icon.svg';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -39,26 +40,26 @@ const Footer = () => {
 
       {screenWidth > 600
       ? <DesktopLinksContainer>
-          <a href='#' style={{ marginRight: '40px' }}>Overview</a>
-          <a href='#' style={{ marginRight: '40px' }}>Community</a>
-          <a href='#' style={{ marginRight: '40px' }}>Support</a>
-          <a href='#'>Contact Us</a>
+          <a href='mailto:contact@getmockup.app' style={{ marginRight: '40px' }}>Overview</a>
+          <a href='https://community.getmockup.app/' target='blank' style={{ marginRight: '40px' }}>Community</a>
+          <Link to='/support' style={{ marginRight: '40px' }}>Support</Link>
+          <a href='mailto:contact@getmockup.app'>Contact Us</a>
         </DesktopLinksContainer>
       : 
         <div>
           <MobileLinksContainer style={{ margin: '38px 0 20px 0' }}>
-            <a href='#'>Overview</a>
-            <a href='#' style={{ paddingRight: '2px' }}>Community</a>
+            <a href='mailto:contact@getmockup.app'>Overview</a>
+            <a href='https://community.getmockup.app/' target='blank' style={{ paddingRight: '2px' }}>Community</a>
           </MobileLinksContainer>
           <MobileLinksContainer>
-            <a href='#'>Support</a>
-            <a href='#'>Contact Us</a>
+            <Link to='/support'>Support</Link>
+            <a href='mailto:contact@getmockup.app'>Contact Us</a>
           </MobileLinksContainer>
         </div>}
 
       <CopyRightFlex>
         <p>© 2022 Mockup</p>
-        <a href='#'>Terms & Privacy</a>
+        <Link to='/policies'>Terms & Privacy</Link>
       </CopyRightFlex>
     </FooterContainer>
   );

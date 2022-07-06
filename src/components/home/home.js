@@ -6,13 +6,15 @@ import BuiltExclusively from './built_exclusively';
 import JoinUs from './join_us';
 import DarkLightModes from './dark_light_modes';
 import DiverseTemplates from './diversetemplates';
+import ExportOptions from './export_options';
 
 const Home = () => {
   return (
     <>
       <Navbar />
       <FirstPage />
-      <DiverseTemplates/>
+      <DiverseTemplates />
+      <ExportOptions />
       <DarkLightModes />
       <BuiltExclusively />
       <JoinUs />
