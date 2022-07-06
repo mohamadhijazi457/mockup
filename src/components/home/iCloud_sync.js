@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import VisualImage from '../../images/visual.png';
+import VisualMobileImage from '../../images/VisualMobile.png';
 
 const ICloudSync = () => {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -37,7 +38,9 @@ const ICloudSync = () => {
                 on any device at any time.</p>
             </div>}
         </div>
-        <Image src={VisualImage} alt='visual_image' />
+        {screenWidth > 600
+        ? <Image src={VisualImage} alt='visual_image' />
+        : <Image src={VisualMobileImage} alt='visual_image' />}
       </FlexWrapper>
     </ICloudSyncContainer>
   );
@@ -70,6 +73,11 @@ const Image = styled.img`
     margin-top: 40px;
     width: 95%;
     height: 400px;
+  }
+
+  @media only screen and (max-width: 1025px) {
+    width: 100%;
+    height: 320px;
   }
 `;
 
