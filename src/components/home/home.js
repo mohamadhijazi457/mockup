@@ -7,6 +7,7 @@ import JoinUs from './join_us';
 import DarkLightModes from './dark_light_modes';
 import DiverseTemplates from './diversetemplates';
 import ExportOptions from './export_options';
+import ICloudSync from './iCloud_sync';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Navbar />
       <FirstPage />
       <DiverseTemplates />
+      <ICloudSync />
       <ExportOptions />
       <DarkLightModes />
       <BuiltExclusively />
