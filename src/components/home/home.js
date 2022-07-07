@@ -11,6 +11,7 @@ import ICloudSync from './iCloud_sync';
 import ShareExperience from './share_experience';
 import FirstPageMobile from './firstpagemobile';
 import FirstPageIpad from './firstpageipad';
+import Canvas from './canvas';
 
 const Home = () => {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -49,6 +50,7 @@ const Home = () => {
       
     </div>
       <DiverseTemplates />
+      <Canvas/>
       <ICloudSync />
       <ExportOptions />
       <DarkLightModes />

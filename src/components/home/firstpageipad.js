@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import FeaturedOnAppStore from '../../images/Featured on App Store.svg';
 import DownloadApp from '../../images/Download on the App Store button.svg';
-import IpadResponsive from '../../images/iPad Pro 11 - Space Gray - Landscape.svg';
+import IpadResponsive from '../../images/Light iPad.png';
 import PenResponsive from '../../images/apple pencil ipad.png';
 
 
-const FirstPageIpad = () => {
+const FirstPageMobile = () => {
     const [screenWidth, setScreenWidth] = useState(0);
   
     useEffect(() => {
@@ -23,17 +23,17 @@ const FirstPageIpad = () => {
 
   return(
     <ContainerOneMobile>
-        <FirstHeading className="h1"><p>Sketch out your UI/<br/>UX projects without paper</p></FirstHeading>
-        <MockupDescription className="desc"><p>Mockup redefines the entire process of <br/>sketching UI & UX projects for iOS. With <br/> the extensive collection of tools and <br/> features that Mockup provides, it’s the <br/> ideal app for brainstorming and planning <br/>your next app and web design.</p></MockupDescription>
-        <ImgsMobile>
-        <img src={FeaturedOnAppStore} width='65' height='30'  alt='FeaturedOnAppStore1_png' style={{ paddingRight:"20px", paddingTop:"20px" }} />
+        <FirstHeading className="h1"><p>Sketch out your UI/UX <br></br>projects without paper</p></FirstHeading>
+            <MockupDescription className="desc"><p>Mockup redefines the entire process of sketching UI & UX projects <br/>for iOS. With the extensive collection of tools and features that<br/> Mockup provides, it’s the ideal app for brainstorming and planning <br/>your next app and web design.</p></MockupDescription>
+          <ImgsMobile>
+        <img src={FeaturedOnAppStore} width='75' height='40'  alt='FeaturedOnAppStore1_png' style={{ paddingRight:"20px", paddingTop:"20px" }} />
           <a href='https://apps.apple.com/app/mockup-sketch-ui-ux/id1527554407' target='blank'>
-          <img src={DownloadApp} width='65' height='30' alt='DownloadApp1_png' style={{ paddingTop:"23px" }} />
+          <img src={DownloadApp} width='75' height='40' alt='DownloadApp1_png' style={{ paddingTop:"23px" }} />
           </a>
         </ImgsMobile>
         <IpadImgContainer>
-            <img src={PenResponsive}  alt='PenImageMobile_png' style={{width:"230px" ,height:"20px", paddingLeft:"160px" }}/>
-            <img src={IpadResponsive}  alt='IpadeImageIpad_png' style={{width:"370px" ,height:"300px", paddingLeft:"20px"}}/>
+            <img src={PenResponsive}  alt='PenImageMobile_png' style={{width:"400px" ,height:"20px",paddingLeft:"300px", paddingTop:"30px"}}/>
+            <img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{width:"924px" ,height:"669px",paddingLeft:"40px"}}/>
         </IpadImgContainer>
 
     </ContainerOneMobile>
@@ -52,7 +52,7 @@ const FirstPageIpad = () => {
       font-family:HelveticaNeue-Medium;
       padding: 50px 100px;
       padding-Bottom:20px;
-      font-size:20px;
+      font-size:30px;
      `;
      const MockupDescription = styled.div`
       justify-content: center;
@@ -61,7 +61,7 @@ const FirstPageIpad = () => {
       flex-direction:column;
       font-family:HelveticaNeue-Regular;
       padding-bottom:5px;
-      font-size:10px;
+      font-size:15px;
 
      `;
      const ImgsMobile =styled.div`
@@ -75,4 +75,4 @@ const FirstPageIpad = () => {
 
       `;
     
-  export default FirstPageIpad;
+  export default FirstPageMobile;

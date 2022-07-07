@@ -72,6 +72,9 @@ const FirstPageMobile = () => {
       paddingTop:'300px'
       `;
       const IpadImgContainer = styled.div`
+      display:flex;
+      justify-content:column;
+      flex-direction:column;
 
       `;
     
