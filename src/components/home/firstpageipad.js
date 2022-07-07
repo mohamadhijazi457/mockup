@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import FeaturedOnAppStore from '../../images/Featured on App Store.svg';
 import DownloadApp from '../../images/Download on the App Store button.svg';
 import IpadResponsive from '../../images/iPad Pro 11 - Space Gray - Landscape.svg';
-import PenResponsive from '../../images/apple pencil mobile.png';
+import PenResponsive from '../../images/apple pencil ipad.png';
 
 
 const FirstPageIpad = () => {

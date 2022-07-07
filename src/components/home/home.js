@@ -33,7 +33,7 @@ const Home = () => {
       <Navbar />
       <div>
       {
-        screenWidth > 1180
+        screenWidth > 1025
         ? <div>
             <FirstPage />
           </div>
