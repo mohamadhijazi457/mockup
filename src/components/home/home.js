@@ -10,6 +10,7 @@ import ExportOptions from './export_options';
 import ICloudSync from './iCloud_sync';
 import ShareExperience from './share_experience';
 import FirstPageMobile from './firstpagemobile';
+import FirstPageIpad from './firstpageipad';
 
 const Home = () => {
   const [screenWidth, setScreenWidth] = useState(0);
@@ -32,12 +33,19 @@ const Home = () => {
       <Navbar />
       <div>
       {
-        screenWidth > 1110
+        screenWidth > 1025
         ? <div>
             <FirstPage />
           </div>
-        : <FirstPageMobile />
+        : screenWidth <= 1025 && screenWidth > 600
+        ? <div>
+          <FirstPageIpad/>
+          </div>
+        : <FirstPageMobile/>
+         
+        
       };
+      
       
     </div>
       <DiverseTemplates />
