@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import FirstPage from './firstpage';
 import Navbar from '../common/navbar';
 import Footer from '../common/footer';
@@ -9,12 +9,37 @@ import DiverseTemplates from './diversetemplates';
 import ExportOptions from './export_options';
 import ICloudSync from './iCloud_sync';
 import ShareExperience from './share_experience';
+import FirstPageMobile from './firstpagemobile';
 
 const Home = () => {
+  const [screenWidth, setScreenWidth] = useState(0);
+
+  useEffect(() => {
+    function handleResize() {
+      setScreenWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    
+    return () => { 
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [setScreenWidth]);
+  
+
   return (
     <>
       <Navbar />
-      <FirstPage />
+      <div>
+      {
+        screenWidth > 1110
+        ? <div>
+            <FirstPage />
+          </div>
+        : <FirstPageMobile />
+      };
+      
+    </div>
       <DiverseTemplates />
       <ICloudSync />
       <ExportOptions />
@@ -25,6 +50,6 @@ const Home = () => {
       <Footer />
     </>
   );
-}
+};
 
 export default Home;

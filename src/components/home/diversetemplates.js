@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Styled from 'styled-components';
 import RightSideImg from '../../images/right group devices.png';
+import LeftSideImg from '../../images/left group devices 1.png';
+
 
 const DiverseTemplates = () => {
     const [screenWidth, setScreenWidth] = useState(0);
