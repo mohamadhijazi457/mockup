@@ -96,7 +96,7 @@ const IpadImage = styled.img`
   width: 750px;
 
   @media only screen and (max-width: 725px) {
-    width: 650px;
+    width: 100%;
   }
 `;
 
