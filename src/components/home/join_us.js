@@ -2,14 +2,20 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import Shape from '../../images/shape.png';
 import BorderScreen from '../../images/border_screen.png';
+import Circle from '../common/circle';
+import CircleJoinUs from '../../images/circle_Join_us.svg';
 
 const JoinUs = ({ screenWidth }) => {
   return (
     <JoinUsContainer>
       <div>
         {screenWidth > 964
-        ? <p style={{ fontSize: '34px' }}>Join us on<br />Mockup Community</p>
-        : <p style={{ fontSize: '34px' }}>Join us on Mockup<br />Community</p>}
+        ? <p style={{ fontSize: '34px' }}>
+            <Circle text='Join us' src={CircleJoinUs} width='145' top='8' left='-18' /> on<br />Mockup Community
+          </p>
+        : <p style={{ fontSize: '34px' }}>
+            <Circle text='Join us' src={CircleJoinUs} width='130' top='10' left='-10' /> on Mockup<br />Community
+          </p>}
       </div>
 
       <ShapeFlex>
