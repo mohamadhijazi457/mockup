@@ -6,21 +6,7 @@ import IpadResponsive from '../../images/Light iPad.png';
 import PenResponsive from '../../images/apple pencil ipad.png';
 
 
-const FirstPageMobile = () => {
-    const [screenWidth, setScreenWidth] = useState(0);
-  
-    useEffect(() => {
-      function handleResize() {
-        setScreenWidth(window.innerWidth);
-      }
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      
-      return () => { 
-        window.removeEventListener("resize", handleResize)
-      }
-    }, [setScreenWidth]);
-
+const FirstPageIpad = () => {
   return(
     <ContainerOneMobile>
         <FirstHeading className="h1"><p>Sketch out your UI/UX <br></br>projects without paper</p></FirstHeading>
@@ -75,4 +61,4 @@ const FirstPageMobile = () => {
 
       `;
     
-  export default FirstPageMobile;
+  export default FirstPageIpad;

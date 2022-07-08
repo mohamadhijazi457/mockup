@@ -4,21 +4,7 @@ import leftSide from '../../images/left part.png';
 import RightSide from '../../images/right part.png';
 
 
-const Canvas = () => {
-    const [screenWidth, setScreenWidth] = useState(0);
-  
-    useEffect(() => {
-      function handleResize() {
-        setScreenWidth(window.innerWidth);
-      }
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      
-      return () => { 
-        window.removeEventListener("resize", handleResize)
-      }
-    }, [setScreenWidth]);
-    
+const Canvas = () => {    
     return(
         <FirstContainer>
             <p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"42px",paddingLeft:"1px",textAlign:"center",paddingBottom:"60px",paddingTop:"70px"}}>Flexible Canvas and slick <br/>Quick Actions</p>

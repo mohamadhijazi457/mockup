@@ -4,21 +4,7 @@ import PNGDoc from '../../images/PNG Doc.svg';
 import PDFDoc from '../../images/PDF Doc.svg';
 import MockupDoc from '../../images/Mockup Doc.svg';
 
-const ExportOptions = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
-
-  useEffect(() => {
-    function handleResize() {
-      setScreenWidth(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    
-    return () => { 
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [setScreenWidth]);
-
+const ExportOptions = ({ screenWidth }) => {
   return (
     <ExportOptionsContainer>
       {screenWidth > 1025

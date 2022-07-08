@@ -6,19 +6,6 @@ import IpadImg from '../../images/iPad Pro 11 - Space Gray - Landscape.svg';
 import PenImg from '../../images/apple pencil.svg';
 
 const FirstPage = () => {
-    const [screenWidth, setScreenWidth] = useState(0);
-  
-    useEffect(() => {
-      function handleResize() {
-        setScreenWidth(window.innerWidth);
-      }
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      
-      return () => { 
-        window.removeEventListener("resize", handleResize)
-      }
-    }, [setScreenWidth]);
     return ( 
         <ContainerOne> 
             <FirstHeading className="h1"><p>Sketch out your UI/UX <br></br>projects without paper</p></FirstHeading>

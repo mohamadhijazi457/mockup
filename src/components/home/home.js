@@ -13,22 +13,7 @@ import FirstPageMobile from './firstpagemobile';
 import FirstPageIpad from './firstpageipad';
 import Canvas from './canvas';
 
-const Home = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
-
-  useEffect(() => {
-    function handleResize() {
-      setScreenWidth(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    
-    return () => { 
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [setScreenWidth]);
-  
-
+const Home = ({ screenWidth }) => {
   return (
     <>
       <Navbar />
@@ -49,7 +34,7 @@ const Home = () => {
       
       
     </div>
-      <DiverseTemplates />
+      {/* <DiverseTemplates /> */}
       <Canvas/>
       <ICloudSync />
       <ExportOptions />

@@ -6,21 +6,7 @@ import ApplePencil from '../../images/apple pencil.png';
 import ApplePencilIpad from '../../images/Layer.png';
 import ApplePencilMobile from '../../images/apple pencil mobile.png';
 
-const DarkLightModes = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
-
-  useEffect(() => {
-    function handleResize() {
-      setScreenWidth(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    
-    return () => { 
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [setScreenWidth]);
-
+const DarkLightModes = ({ screenWidth }) => {
   return (
     <DarkLightModesContainer>
       <div>

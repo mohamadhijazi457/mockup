@@ -5,20 +5,6 @@ import LeftSideImg from '../../images/left group devices 1.png';
 
 
 const DiverseTemplates = () => {
-    const [screenWidth, setScreenWidth] = useState(0);
-  
-    useEffect(() => {
-      function handleResize() {
-        setScreenWidth(window.innerWidth);
-      }
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      
-      return () => { 
-        window.removeEventListener("resize", handleResize)
-      }
-    }, [setScreenWidth]);
-
      return(
         <ContainerDiverse>
             <LeftSide>
