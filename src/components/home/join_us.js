@@ -4,6 +4,8 @@ import Shape from '../../images/shape.png';
 import BorderScreen from '../../images/border_screen.png';
 import Circle from '../common/circle';
 import CircleJoinUs from '../../images/circle_Join_us.svg';
+import Underline from '../common/underline';
+import UnderlineCommunity from '../../images/underline Community.svg';
 
 const JoinUs = ({ screenWidth }) => {
   return (
@@ -11,10 +13,12 @@ const JoinUs = ({ screenWidth }) => {
       <div>
         {screenWidth > 964
         ? <p style={{ fontSize: '34px' }}>
-            <Circle text='Join us' src={CircleJoinUs} width='145' top='8' left='-18' /> on<br />Mockup Community
+            <Circle text='Join us' src={CircleJoinUs} width='145' top='8' left='-18' /> on<br />Mockup&nbsp;
+            <Underline text='Community' src={UnderlineCommunity} width='200' bottom='-12' left='-2' />
           </p>
         : <p style={{ fontSize: '34px' }}>
-            <Circle text='Join us' src={CircleJoinUs} width='130' top='10' left='-10' /> on Mockup<br />Community
+            <Circle text='Join us' src={CircleJoinUs} width='130' top='10' left='-10' /> on Mockup<br />
+            <Underline text='Community' src={UnderlineCommunity} width='200' bottom='-20' left='-2' />
           </p>}
       </div>
 
