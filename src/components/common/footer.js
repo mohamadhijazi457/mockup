@@ -11,25 +11,25 @@ const Footer = ({ screenWidth }) => {
     <FooterContainer>
       <SocialMediaFlexWrapper>
         <a href='https://www.instagram.com/mockup.app/' target='blank'>
-          <img src={InstaLogo} width='30' height='30' alt='instagram_logo' style={{ marginRight: '28px' }} />
+          <img src={InstaLogo} width='30' height='30' alt='instagram_logo' style={{ marginRight: '18px' }} />
         </a>
         <a href='https://twitter.com/MockupApp' target='blank'>
-          <img src={TwitterLogo} width='30' height='30' alt='twitter_logo' style={{ marginRight: '28px' }} />
+          <img src={TwitterLogo} width='30' height='30' alt='twitter_logo' style={{ marginLeft: '18px', marginRight: '18px' }} />
         </a>
         <a href='https://www.tiktok.com/@mockup.app' target='blank'>
-          <img src={TiktokLogo} width='30' height='30' alt='tiktok_logo' style={{ marginRight: '28px' }} />
+          <img src={TiktokLogo} width='30' height='30' alt='tiktok_logo' style={{ marginLeft: '18px', marginRight: '18px' }} />
         </a>
         <a href='https://www.facebook.com/GetMockup/' target='blank'>
-          <img src={FacebookLogo} width='30' height='30' alt='facebook_logo' />
+          <img src={FacebookLogo} width='30' height='30' alt='facebook_logo' style={{ marginLeft: '18px', marginRight: '18px' }} />
         </a>
       </SocialMediaFlexWrapper>
 
       {screenWidth > 964
       ? <DesktopLinksContainer>
-          <a href='mailto:contact@getmockup.app' style={{ marginRight: '40px' }}>Overview</a>
-          <a href='https://community.getmockup.app/' target='blank' style={{ marginRight: '40px' }}>Community</a>
-          <Link to='/support' style={{ marginRight: '40px' }}>Support</Link>
-          <a href='mailto:contact@getmockup.app'>Contact Us</a>
+          <a href='mailto:contact@getmockup.app' style={{ marginRight: '26px' }}>Overview</a>
+          <a href='https://community.getmockup.app/' target='blank' style={{ marginLeft: '26px', marginRight: '26px' }}>Community</a>
+          <Link to='/support' style={{ marginLeft: '26px', marginRight: '26px' }}>Support</Link>
+          <a href='mailto:contact@getmockup.app' style={{ marginLeft: '26px', marginRight: '26px' }}>Contact Us</a>
         </DesktopLinksContainer>
       : 
         <div>

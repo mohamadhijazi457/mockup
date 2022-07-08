@@ -8,8 +8,8 @@ const JoinUs = ({ screenWidth }) => {
     <JoinUsContainer>
       <div>
         {screenWidth > 964
-        ? <h1>Join us on<br />Mockup Community</h1>
-        : <h1>Join us on Mockup<br />Community</h1>}
+        ? <p style={{ fontSize: '34px' }}>Join us on<br />Mockup Community</p>
+        : <p style={{ fontSize: '34px' }}>Join us on Mockup<br />Community</p>}
       </div>
 
       <ShapeFlex>
