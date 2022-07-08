@@ -6,6 +6,10 @@ import LeftIpad1 from '../../images/left_ipad1.png';
 import RightIpad1 from '../../images/right iPad1.png';
 import LeftIpadMobile from '../../images/left_ipad1_mobile.png';
 import RightIpadMobile from '../../images/right iPad1 Mobile.png';
+import CircleSeamless from '../../images/circle seamless.svg';
+import UnderlineShareplay from '../../images/underline shareplay.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const ShareExperience = ({ screenWidth }) => {
   return (
@@ -33,13 +37,19 @@ const Paragraph = (props) => {
     <div style={{ marginBottom: `${withMargin ? '10px' : '0'}` }}>
       {screenWidth > 964
       ? <div>
-          <p style={{ fontSize: '34px' }}>A seamless experience<br />with SharePlay</p><br/>
+          <p style={{ fontSize: '34px' }}>
+            A <Circle text='seamless' src={CircleSeamless} width='170' left='-10' /> experience<br />with&nbsp;
+            <Underline text='SharePlay' src={UnderlineShareplay} width='160' bottom='-4' />
+          </p><br/>
           <p>SharePlay is a powerful way for users to connect with each other<br/>and share experiences
             right inside FaceTime.<br/>With SharePlay, you can show your work, brainstorm and plan,<br/>and even
             sketch together with your colleagues or clients.</p>
         </div>
       : <div>
-          <p style={{ fontSize: '34px' }}>A seamless<br />experience<br />with SharePlay</p><br/>
+          <p style={{ fontSize: '34px' }}>
+            A <Circle text='seamless' src={CircleSeamless} width='175' left='-6' /><br />experience<br />with&nbsp;
+            <Underline text='SharePlay' src={UnderlineShareplay} width='160' bottom='-12' />
+          </p><br/>
           <p>SharePlay is a powerful way for<br />users to connect with each other<br/>and share experiences
             right inside<br />FaceTime. With SharePlay, you can<br />show your work, brainstorm and plan, and<br/>even
             sketch together with<br/>your colleagues or clients.</p>

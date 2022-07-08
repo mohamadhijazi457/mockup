@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="234.737" height="9.93" viewBox="0 0 234.737 9.93">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="underline_shareplay" data-name="underline shareplay" d="M-4403.418-14958.117s47.867-5.644,119.777-7.346c33.152-.784,71.6-.723,112.8,1.147" transform="translate(4404.528 14966.937)" fill="none" stroke="#387fed" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>

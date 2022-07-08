@@ -5,6 +5,10 @@ import DarkLightMobile from '../../images/dark_light_mobile.png';
 import ApplePencil from '../../images/apple pencil.png';
 import ApplePencilIpad from '../../images/Layer.png';
 import ApplePencilMobile from '../../images/apple pencil mobile.png';
+import CircleSwitchOff from '../../images/circle switch off.svg';
+import UnderlineDarkLight from '../../images/underline dark and light.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const DarkLightModes = ({ screenWidth }) => {
   return (
@@ -12,14 +16,21 @@ const DarkLightModes = ({ screenWidth }) => {
       <div>
         {screenWidth > 964
         ? <div>
-            <p style={{ fontSize: '34px' }}>Switch off between<br/>Dark and Light Modes</p><br/>
+            <p style={{ fontSize: '34px' }}>
+              <Circle text='Switch off' src={CircleSwitchOff} width='200' left='-20' top='-10' /> between<br/>
+              <Underline text='Dark and Light' src={UnderlineDarkLight} width='250' bottom='-16' left='-5' /> Modes
+            </p><br/>
             <p>We love seeing the differences and the small touches to your<br />sketches and projects
               with the dark and light mode transitions.<br />Design in dark mode to convey an elegant and sleek
               look and feel,<br />or leave room to fresh look and content with light mode.
               Enable<br />your preferred mode as you carry on with your sketches.</p>
           </div>
         : <div>
-            <p style={{ fontSize: '34px' }}>Switch off<br/>between Dark<br/>and Light Modes</p><br/>
+            <p style={{ fontSize: '34px' }}>
+              <Circle text='Switch off' src={CircleSwitchOff} width='185' left='-8' /><br/>
+              between Dark<br/>and Light <Underline text='Modes' src={UnderlineDarkLight} width='115'
+              bottom='2' />
+            </p><br/>
             <p>We love seeing the differences and the small<br />touches to your sketches and projects
               with<br />the dark and light mode transitions.<br />Design in dark mode to convey an elegant<br />and sleek
               look and feel, or leave room to<br />fresh look and content with light mode.<br />

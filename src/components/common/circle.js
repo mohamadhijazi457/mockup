@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Circle = (props) => {
-  const { text, src, width, top, left } = props;
+  const { text, src, width, height, top, left } = props;
   return (
     <CircleContainer>
       <CircleText>{text}</CircleText>
