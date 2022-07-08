@@ -7,20 +7,7 @@ import RightIpad1 from '../../images/right iPad1.png';
 import LeftIpadMobile from '../../images/left_ipad1_mobile.png';
 import RightIpadMobile from '../../images/right iPad1 Mobile.png';
 
-const ShareExperience = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
-
-  useEffect(() => {
-    function handleResize() {
-      setScreenWidth(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    
-    return () => { 
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [setScreenWidth]);
+const ShareExperience = ({ screenWidth }) => {
   return (
     <ShareExperienceContainer>
       {screenWidth > 1025

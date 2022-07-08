@@ -6,21 +6,7 @@ import TiktokLogo from '../../images/tiktok_icon.svg';
 import FacebookLogo from '../../images/facebook_icon.svg';
 import { Link } from 'react-router-dom';
 
-const Footer = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
-  
-  useEffect(() => {
-    function handleResize() {
-      setScreenWidth(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    
-    return () => { 
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [setScreenWidth]);
-
+const Footer = ({ screenWidth }) => {
   return (
     <FooterContainer>
       <SocialMediaFlexWrapper>

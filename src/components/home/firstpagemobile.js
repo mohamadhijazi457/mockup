@@ -7,20 +7,6 @@ import PenResponsive from '../../images/apple pencil mobile.png';
 
 
 const FirstPageMobile = () => {
-    const [screenWidth, setScreenWidth] = useState(0);
-  
-    useEffect(() => {
-      function handleResize() {
-        setScreenWidth(window.innerWidth);
-      }
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      
-      return () => { 
-        window.removeEventListener("resize", handleResize)
-      }
-    }, [setScreenWidth]);
-
   return(
     <ContainerOneMobile>
         <FirstHeading className="h1"><p>Sketch out your UI/<br/>UX projects without paper</p></FirstHeading>

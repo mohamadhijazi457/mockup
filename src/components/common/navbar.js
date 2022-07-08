@@ -4,20 +4,6 @@ import Appicon from '../../images/appicon.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const [screenWidth, setScreenWidth] = useState(0);
-  
-    useEffect(() => {
-      function handleResize() {
-        setScreenWidth(window.innerWidth);
-      }
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      
-      return () => { 
-        window.removeEventListener("resize", handleResize)
-      }
-    }, [setScreenWidth]);
-  
     return ( 
     <NavbarContainer>
       <LeftContainer>

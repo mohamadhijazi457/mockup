@@ -3,21 +3,7 @@ import styled from 'styled-components';
 import Shape from '../../images/shape.png';
 import BorderScreen from '../../images/border_screen.png';
 
-const JoinUs = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
-
-  useEffect(() => {
-    function handleResize() {
-      setScreenWidth(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    
-    return () => { 
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [setScreenWidth]);
-
+const JoinUs = ({ screenWidth }) => {
   return (
     <JoinUsContainer>
       <div>

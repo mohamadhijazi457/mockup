@@ -12,22 +12,9 @@ import MapsIconMobile from '../../images/Maps icon mobile.png';
 
 const MOBILEICONWIDTH = 30;
 
-const BuiltExclusively = () => {
-  const [screenWidth, setScreenWidth] = useState(0);
+const BuiltExclusively = ({ screenWidth }) => {
   const [icon, setIcon] = useState(80);
   const [logo, setLogo] = useState(100);
-
-  useEffect(() => {
-    function handleResize() {
-      setScreenWidth(window.innerWidth);
-    }
-    window.addEventListener("resize", handleResize);
-    handleResize();
-    
-    return () => { 
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [setScreenWidth]);
 
   useEffect(() => {
     if (screenWidth <= 780) {
