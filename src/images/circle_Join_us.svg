@@ -1,3 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="206.136" height="57.439" viewBox="0 0 206.136 57.439">
-  <path id="circle_Join_us" data-name="circle Join us" d="M646.92,121.407c-.664.1-27.106-1.071-62.565,0s-71.431,7.154-101.06,21.543c-4.307,2.092-8.553,4.418-11.415,7.566s-4.139,7.284-2.132,10.749c2.662,4.6,9.9,6.622,16.473,7.985,52.335,10.857,109.428,9.3,160.7-4.368,11.044-2.945,23.242-7.658,25.5-16.085,1.8-6.715-3.87-13.548-11.631-17.329s-17.246-5.1-26.492-6.081a493.683,493.683,0,0,0-130.116,3.574" transform="translate(-467.634 -119.961)" fill="none" stroke="#f0c954" stroke-miterlimit="10" stroke-width="2"/>
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="circle_Join_us" data-name="circle Join us" d="M646.92,121.407c-.664.1-27.106-1.071-62.565,0s-71.431,7.154-101.06,21.543c-4.307,2.092-8.553,4.418-11.415,7.566s-4.139,7.284-2.132,10.749c2.662,4.6,9.9,6.622,16.473,7.985,52.335,10.857,109.428,9.3,160.7-4.368,11.044-2.945,23.242-7.658,25.5-16.085,1.8-6.715-3.87-13.548-11.631-17.329s-17.246-5.1-26.492-6.081a493.683,493.683,0,0,0-130.116,3.574" transform="translate(-467.634 -119.961)" fill="none" stroke="#f0c954" stroke-miterlimit="10" stroke-width="2" pathLength="10" />
 </svg>
