@@ -6,7 +6,7 @@ import IpadResponsive from '../../images/Light iPad.png';
 import PenResponsive from '../../images/apple pencil ipad.png';
 
 
-const FirstPageMobile = () => {
+const FirstPageIpad = () => {
     const [screenWidth, setScreenWidth] = useState(0);
   
     useEffect(() => {
@@ -75,4 +75,4 @@ const FirstPageMobile = () => {
 
       `;
     
-  export default FirstPageMobile;
+  export default FirstPageIpad;

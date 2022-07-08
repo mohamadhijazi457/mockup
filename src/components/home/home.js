@@ -38,7 +38,7 @@ const Home = () => {
         ? <div>
             <FirstPage />
           </div>
-        : screenWidth <= 1025 && screenWidth > 600
+        : screenWidth <= 1025 && screenWidth > 725
         ? <div>
           <FirstPageIpad/>
           </div>
