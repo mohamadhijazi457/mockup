@@ -34,7 +34,7 @@ const Home = ({ screenWidth }) => {
       
       
     </div>
-      {/* <DiverseTemplates /> */}
+      <DiverseTemplates />
       <Canvas/>
       <ICloudSync />
       <ExportOptions />
