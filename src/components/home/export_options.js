@@ -19,7 +19,7 @@ const ExportOptions = ({ screenWidth }) => {
             to share what you created and<br />exchange.mockup files with other users.</p>
         </div>
       </FlexWrapper>
-    : screenWidth <= 1025 && screenWidth > 600
+    : screenWidth <= 1025 && screenWidth > 964
     ? <ColumnFlex>
         <div style={{ marginBottom: '28px' }}>
           <Title>Export options<br />for every scenario</Title>

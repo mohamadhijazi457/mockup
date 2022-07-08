@@ -19,8 +19,8 @@ const ShareExperience = ({ screenWidth }) => {
       : <ColumnFlex>
           <Paragraph screenWidth={screenWidth} />
           <ImageFlex>
-            <Image src={screenWidth > 600 ? LeftIpad1 : LeftIpadMobile} alt='left_ipad_image' style={{ marginRight: '20px' }} />
-            <Image src={screenWidth > 600 ? RightIpad1 : RightIpadMobile} alt='right_ipad_image' />
+            <Image src={screenWidth > 964 ? LeftIpad1 : LeftIpadMobile} alt='left_ipad_image' style={{ marginRight: '20px' }} />
+            <Image src={screenWidth > 964 ? RightIpad1 : RightIpadMobile} alt='right_ipad_image' />
           </ImageFlex>
         </ColumnFlex>}
     </ShareExperienceContainer>
@@ -31,7 +31,7 @@ const Paragraph = (props) => {
   const { screenWidth, withMargin } = props;
   return (
     <div style={{ marginBottom: `${withMargin ? '10px' : '0'}` }}>
-      {screenWidth > 600
+      {screenWidth > 964
       ? <div>
           <p style={{ fontSize: '34px' }}>A seamless experience<br />with SharePlay</p><br/>
           <p>SharePlay is a powerful way for users to connect with each other<br/>and share experiences
@@ -68,7 +68,6 @@ const Image = styled.img`
   width: 300px;
 
   @media only screen and (max-width: 650px) {
-    border: 1px solid red;
     width: 48%;
   }
 `;

@@ -23,7 +23,7 @@ const Home = ({ screenWidth }) => {
         ? <div>
             <FirstPage />
           </div>
-        : screenWidth <= 1025 && screenWidth > 600
+        : screenWidth <= 1025 && screenWidth > 964
         ? <div>
           <FirstPageIpad/>
           </div>
@@ -35,14 +35,14 @@ const Home = ({ screenWidth }) => {
       
     </div>
       <DiverseTemplates />
-      <Canvas/>
-      <ICloudSync />
-      <ExportOptions />
-      <DarkLightModes />
-      <ShareExperience />
-      <BuiltExclusively />
-      <JoinUs />
-      <Footer />
+      <Canvas />
+      <ICloudSync screenWidth={screenWidth} />
+      <ExportOptions screenWidth={screenWidth} />
+      <DarkLightModes screenWidth={screenWidth} />
+      <ShareExperience screenWidth={screenWidth} />
+      <BuiltExclusively screenWidth={screenWidth} />
+      <JoinUs screenWidth={screenWidth} />
+      <Footer screenWidth={screenWidth} />
     </>
   );
 };

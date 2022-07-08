@@ -10,7 +10,7 @@ const DarkLightModes = ({ screenWidth }) => {
   return (
     <DarkLightModesContainer>
       <div>
-        {screenWidth > 725
+        {screenWidth > 964
         ? <div>
             <p style={{ fontSize: '34px' }}>Switch off between<br/>Dark and Light Modes</p><br/>
             <p>We love seeing the differences and the small touches to your<br />sketches and projects
@@ -32,7 +32,7 @@ const DarkLightModes = ({ screenWidth }) => {
           <IpadImage src={DarkLightIpad} />
           <img style={{ marginLeft: '40px' }} src={ApplePencil} height='480px' />
         </IpadFlex>
-      : screenWidth <= 1025 && screenWidth > 725
+      : screenWidth <= 1025 && screenWidth > 964
       ? <IpadFlex>
           <img style={{ marginLeft: '14px' }} src={ApplePencilIpad} width='520' />
           <IpadImage src={DarkLightIpad} />

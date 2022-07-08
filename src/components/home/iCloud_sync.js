@@ -8,7 +8,7 @@ const ICloudSync = ({ screenWidth }) => {
     <ICloudSyncContainer>
       <FlexWrapper>
         <div>
-          {screenWidth > 600
+          {screenWidth > 964
           ? <div>
               <p style={{ fontSize: '34px' }}>Anywhere any device<br />with iCloud Sync</p><br />
               <p>Mockup is iCloud-enabled: all of your projects are synced and<br />accessible across your Mac,
@@ -24,7 +24,7 @@ const ICloudSync = ({ screenWidth }) => {
                 on any device at any time.</p>
             </div>}
         </div>
-        {screenWidth > 600
+        {screenWidth > 964
         ? <Image src={VisualImage} alt='visual_image' />
         : <Image src={VisualMobileImage} alt='visual_image' />}
       </FlexWrapper>

@@ -17,7 +17,7 @@ const BuiltExclusively = ({ screenWidth }) => {
   const [logo, setLogo] = useState(100);
 
   useEffect(() => {
-    if (screenWidth <= 780) {
+    if (screenWidth <= 964) {
       setIcon(50);
       setLogo(70);
     } else {
@@ -38,7 +38,7 @@ const BuiltExclusively = ({ screenWidth }) => {
           <Icon src={PhotosIcon} width={icon} height={icon} alt='photos_icon' />
           <Icon src={ClockIcon} width={icon} height={icon} alt='settings_icon' />
         </FlexWrapper>
-      : screenWidth < 1210 && screenWidth > 845
+      : screenWidth < 1210 && screenWidth > 964
       ? <FlexWrapper>
           <MobileIcon src={MapsIcon} width={icon} height={icon} alt='maps_icon' />
           <MobileIcon src={MailIcon} width={icon} height={icon} alt='mail_icon' />
@@ -55,7 +55,7 @@ const BuiltExclusively = ({ screenWidth }) => {
         </FlexWrapper>}
 
       <div style={{ textAlign: 'center', marginTop: '50px' }}>
-        {screenWidth > 600
+        {screenWidth > 964
         ? <div>
             <p style={{ fontSize: '30px', marginBottom: '10px' }}>Built exclusively for Apple</p>
             <div style={{ display: 'flex', justifyContent: 'center' }}>

@@ -24,7 +24,7 @@ const Footer = ({ screenWidth }) => {
         </a>
       </SocialMediaFlexWrapper>
 
-      {screenWidth > 600
+      {screenWidth > 964
       ? <DesktopLinksContainer>
           <a href='mailto:contact@getmockup.app' style={{ marginRight: '40px' }}>Overview</a>
           <a href='https://community.getmockup.app/' target='blank' style={{ marginRight: '40px' }}>Community</a>

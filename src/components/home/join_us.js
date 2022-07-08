@@ -7,7 +7,7 @@ const JoinUs = ({ screenWidth }) => {
   return (
     <JoinUsContainer>
       <div>
-        {screenWidth > 600
+        {screenWidth > 964
         ? <h1>Join us on<br />Mockup Community</h1>
         : <h1>Join us on Mockup<br />Community</h1>}
       </div>
