@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288.161" height="11.32" viewBox="0 0 288.161 11.32">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="underline_iCloud_Sync" data-name="underline iCloud Sync" d="M451.065,292.146c22.9-1.258,6.614-1.782,69.946-5.255,68.407-3.751,115.007-.346,165.949.566l1.529.027c-46.234-4.523-95.766-5.339-144.238-4.2s-96.2,4.167-143.763,7.2" transform="translate(-400.424 -281.825)" fill="none" stroke="#6978ff" stroke-miterlimit="10" stroke-width="2" pathLength="10" />
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="314.358" height="63.258" viewBox="0 0 314.358 63.258">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="circle_any_device" data-name="circle any device" d="M781.84,128.369c-49.617-4.046-99.567-8.1-149.689-6.912S531.181,129.4,489.3,145.373c-6.088,2.323-12.09,4.9-16.135,8.4s-5.851,8.087-3.014,11.934c3.763,5.1,14,7.352,23.285,8.865,73.976,12.053,154.68,10.329,227.153-4.85,15.61-3.27,32.853-8.5,36.043-17.857,2.542-7.455-5.471-15.041-16.441-19.239s-24.378-5.666-37.447-6.751a886.629,886.629,0,0,0-183.923,3.968" transform="translate(-467.563 -120.252)" fill="none" stroke="#6978ff" stroke-miterlimit="10" stroke-width="2" pathLength="10" />
+</svg>

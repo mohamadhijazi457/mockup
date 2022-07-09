@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175.875" height="54.354" viewBox="0 0 175.875 54.354">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="Circle_Export" data-name="Circle Export" d="M-4475.445-15064.718s-43.28-17.167-105.458-7.268-85.553,46.455,34.751,42.948,79.846-42.948,79.846-42.948" transform="matrix(0.999, 0.035, -0.035, 0.999, 4105.75, 15228.606)" fill="none" stroke="#c84a60" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>
