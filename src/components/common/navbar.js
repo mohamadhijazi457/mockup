@@ -1,58 +1,62 @@
 import React, { useEffect, useState } from 'react';
-import Styled from 'styled-components';
+import styled from 'styled-components';
 import Appicon from '../../images/appicon.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    return ( 
+  return ( 
     <NavbarContainer>
       <LeftContainer>
-      <LogoIcon className="logo"><Link to='/'><img src={Appicon} /></Link></LogoIcon>  
-      <NameContainer className="name">Mockup</NameContainer>
+        <LogoIcon className="logo"><Link to='/'><img src={Appicon} /></Link></LogoIcon>  
+        <NameContainer className="name">Mockup</NameContainer>
       </LeftContainer>
       <RightSide>
         <GetAppbtn className="btn" as="a" href="https://apps.apple.com/app/mockup-sketch-ui-ux/id1527554407">Get App</GetAppbtn>
       </RightSide>
     </NavbarContainer>
-    );
-  };
+  );
+};
   
-  const NavbarContainer = Styled.div `
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content:space-between;
-  padding: 5px 10px 5px 30px;
-  border-bottom:0.25px solid black ;
-  `;
-  const LeftContainer=Styled.div`
-  display:flex;
+const NavbarContainer = styled.div `
+  display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-between;
-  `;
-  const LogoIcon = Styled.div `
-  display:flex;
+  justify-content: space-between;
+  padding: 5px 10px 5px 30px;
+  border-bottom: 0.25px solid black ;
+`;
+
+const LeftContainer=styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+const LogoIcon = styled.div `
+  display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0 17px;
-  `;
-  const NameContainer = Styled.div`
-  display:flex;
+`;
+
+const NameContainer = styled.div`
+  display: flex;
   flex-direction: row;
   align-items: center; 
-  font-family:HelveticaNeue-Medium;
-  `;
- 
-  const RightSide = Styled.div `
+  font-family: HelveticaNeue-Medium;
+`;
+
+const RightSide = styled.div `
   flex: 0 0 90px;
-  margin-right:0;
-  display:flex;
+  margin-right: 0;
+  display: flex;
   flex-direction: row;
   align-items: center;
-  `;
-  const GetAppbtn = Styled.div`
-  display:flex;
+`;
+
+const GetAppbtn = styled.div`
+  display: flex;
   background-color: black;
   border: none;
   color: white;
@@ -61,9 +65,8 @@ const Navbar = () => {
   text-decoration: none;
   display: inline-block;
   font-size: 10px;
-  border-radius:5px;
-  font-family:HelveticaNeue-Regular;
-  `;
+  border-radius: 5px;
+  font-family: HelveticaNeue-Regular;
+`;
 
-  
-  export default Navbar;
+export default Navbar;
