@@ -60,13 +60,13 @@ const GetAppbtn = styled.div`
   background-color: black;
   border: none;
   color: white;
-  padding: 3px 10px;
+  padding: 4px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 10px;
   border-radius: 5px;
-  font-family: HelveticaNeue-Regular;
+  font-family: HelveticaNeue-Bold;
 `;
 
 export default Navbar;
