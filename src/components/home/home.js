@@ -24,39 +24,8 @@ const Home = ({screenWidth}) => {
   return (
     <>
       <Navbar />
-      <div>
-      {
-        screenWidth > 1025
-        ? <div>
-          <FirstPage />
-          </div>
-        : screenWidth <= 1025 && screenWidth > 964
-        ? <div>
-          <FirstPageIpad/>
-          </div>
-        : <FirstPageMobile/>
-         
-        
-      };
-    </div>
-    <div>
-      {
-        screenWidth > 1025
-        ? <div>
-            <DiverseTemplates />
-          </div>
-        : screenWidth <= 1025 && screenWidth > 964
-        ? <div>
-          <DiverseTemplatesIpad/>
-          </div>
-        : <DiverseTemplatesMobile/>
-
-      };
-    </div>    
-    <div>
-      {
-        screenWidth >1025
-        ? <div>
+      {screenWidth >1025
+      ? <div>
           <FirstPage />
           <DiverseTemplates />
           <Canvas/>
@@ -73,9 +42,7 @@ const Home = ({screenWidth}) => {
           <DiverseTemplatesMobile/>
           <CanvasMobile/>
           <ElementsSketchingMobile/>
-          </div>
-      };
-        </div>
+        </div>}
       <ICloudSync screenWidth={screenWidth} />
       <ExportOptions screenWidth={screenWidth} />
       <DarkLightModes screenWidth={screenWidth} />
@@ -84,9 +51,7 @@ const Home = ({screenWidth}) => {
       <JoinUs screenWidth={screenWidth} />
       <Footer screenWidth={screenWidth} />
     </>
-    );
+  );
 };
-  
-
 
 export default Home;
