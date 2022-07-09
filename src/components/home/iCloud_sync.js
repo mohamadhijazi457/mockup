@@ -44,7 +44,7 @@ const FlexWrapper = styled.div`
   justify-content: end;
   align-items: center;
 
-  @media only screen and (max-width: 1025px) {
+  @media only screen and (max-width: 1240px) {
     flex-direction: column;
   }
 `;
@@ -54,16 +54,16 @@ const Image = styled.img`
   height: 320px;
   margin-left: 40px;
 
-  @media only screen and (max-width: 1025px) {
+  @media only screen and (max-width: 1240px) {
     margin-left: auto;
     margin-top: 40px;
     width: 95%;
     height: 400px;
   }
 
-  @media only screen and (max-width: 1025px) {
+  @media only screen and (max-width: 964px) {
     width: 100%;
-    height: 320px;
+    height: 250px;
   }
 `;
 
