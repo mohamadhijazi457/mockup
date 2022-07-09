@@ -27,7 +27,7 @@ const Home = ({ screenWidth }) => {
       {
         screenWidth > 1025
         ? <div>
-            <FirstPage />
+          <FirstPage />
           </div>
         : screenWidth <= 1025 && screenWidth > 964
         ? <div>

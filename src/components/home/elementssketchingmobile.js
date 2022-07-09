@@ -8,8 +8,8 @@ const ElementsSketchingMobile = () => {
         <FirstContainer>
             <Left>
                 <Text>
-                    <h1 style={{fontFamily:"HelveticaNeue-Medium.ttf", fontSize:"42px",paddingLeft:"1px",textAlign:"center",paddingBottom:"60px",paddingTop:"70px"}}>Premium Elements<br/>for sleek sketching</h1>
-                    <p style={{fontFamily:"HelvaticaNeue-Regular.ttf", fontSize:"15px"}}>
+                    <h1 style={{fontFamily:"HelveticaNeue-Medium.ttf", fontSize:"32px",paddingLeft:"5px",textAlign:"center",paddingBottom:"40px",paddingTop:"70px"}}>Premium Elements<br/>for sleek sketching</h1>
+                    <p style={{fontFamily:"HelvaticaNeue-Regular.ttf", fontSize:"12px",paddingLeft:"50px",paddingBottom:"20px"}}>
 With elements involved in the mix, you can focus on your ideas<br/>
 while delivering clean, consistent sketches, ready to be rendered.<br/>
 Mockup comes with 28 pre-existing elements in the Mockup<br/>
@@ -18,11 +18,11 @@ reuse them to your convenience.
 </p>
                 </Text>
                 <LeftSidedImg>
-                <img src={LeftSideImg} alt='LeftSide_png'style={{width:"317.15px", height:"415.23px", paddingLeft:"40px",paddingBottom:"45px"}}/>
+                <img src={LeftSideImg} alt='LeftSide_png'style={{width:"300px", height:"150px",paddingLeft:"55px"}}/>
                 </LeftSidedImg>
             </Left>
             <Right>
-            <img src={RightSideImg} alt='RightSide_png' style={{width:"317.15px", height:"415.23px", paddingLeft:"40px",paddingBottom:"45px"}}/>
+            <img src={RightSideImg} alt='RightSide_png' style={{width:"200px", height:"300px",paddingLeft:"80px"}}/>
 
             </Right>
             
@@ -31,6 +31,7 @@ reuse them to your convenience.
 
 };
 const FirstContainer = Styled.div`
+
         
 `;
 const Text = Styled.div`
