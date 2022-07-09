@@ -19,7 +19,8 @@ import DiverseTemplatesIpad from './diversetemplatesipad';
 import ElementsSketching from './elementssketching';
 import ElementsSketchingMobile from './elementssketchingmobile';
 
-const Home = ({ screenWidth }) => {
+const Home = ({screenWidth}) => {
+
   return (
     <>
       <Navbar />
@@ -51,34 +52,30 @@ const Home = ({ screenWidth }) => {
         : <DiverseTemplatesMobile/>
 
       };
-    </div>      
+    </div>    
     <div>
       {
         screenWidth >1025
         ? <div>
+          <FirstPage />
+          <DiverseTemplates />
           <Canvas/>
-          </div>
-          : screenWidth <= 1025 && screenWidth > 964
-          ? <div>
-          <CanvasIpad/>
-          </div>
-          : <CanvasMobile/>
-      };
-    </div>
-    <div>
-      {
-    screenWidth >1025
-        ? <div>
           <ElementsSketching/>
+        </div>
+      : screenWidth <= 1025 && screenWidth > 964
+      ? <div>
+          <FirstPageIpad/>
+          <DiverseTemplatesIpad/>
+          <CanvasIpad/>
+        </div>
+      : <div>
+          <FirstPageMobile/>
+          <DiverseTemplatesMobile/>
+          <CanvasMobile/>
+          <ElementsSketchingMobile/>
           </div>
-          : screenWidth <= 1025 && screenWidth > 964
-          ? <div>
-
-          </div>
-          : <ElementsSketchingMobile/>
       };
-
-    </div>
+        </div>
       <ICloudSync screenWidth={screenWidth} />
       <ExportOptions screenWidth={screenWidth} />
       <DarkLightModes screenWidth={screenWidth} />
@@ -87,7 +84,9 @@ const Home = ({ screenWidth }) => {
       <JoinUs screenWidth={screenWidth} />
       <Footer screenWidth={screenWidth} />
     </>
-  );
+    );
 };
+  
+
 
 export default Home;
