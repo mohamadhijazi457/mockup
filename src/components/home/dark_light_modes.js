@@ -101,4 +101,4 @@ const IpadImage = styled.img`
   }
 `;
 
-export default DarkLightModes
+export default DarkLightModes;

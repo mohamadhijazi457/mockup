@@ -19,6 +19,10 @@ import DiverseTemplatesIpad from './diversetemplatesipad';
 import ElementsSketching from './elementssketching';
 import ElementsSketchingMobile from './elementssketchingmobile';
 import ElementsSketchingIpad from './elementssketchingipad';
+import DrawingBox from './drawingbox';
+import DrawingBoxPhone from './drawingboxphone';
+import DrawingBoxIpad from './drawingboxipad';
+import VariousDrawing from './variousdrawing';
 
 const Home = ({screenWidth}) => {
 
@@ -31,6 +35,8 @@ const Home = ({screenWidth}) => {
           <DiverseTemplates />
           <Canvas/>
           <ElementsSketching/>
+          <DrawingBox/>
+          <VariousDrawing/>
         </div>
       : screenWidth <= 1025 && screenWidth > 964
       ? <div>
@@ -38,12 +44,14 @@ const Home = ({screenWidth}) => {
           <DiverseTemplatesIpad/>
           <CanvasIpad/>
           <ElementsSketchingIpad/>
+          <DrawingBoxIpad/>
         </div>
       : <div>
           <FirstPageMobile/>
           <DiverseTemplatesMobile/>
           <CanvasMobile/>
           <ElementsSketchingMobile/>
+          <DrawingBoxPhone/>
         </div>}
       <ICloudSync screenWidth={screenWidth} />
       <ExportOptions screenWidth={screenWidth} />
