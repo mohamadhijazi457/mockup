@@ -9,6 +9,10 @@ import PodcastIcon from '../../images/podcast_icon.svg';
 import SettingsIcon from '../../images/settings_icon.svg';
 import PhotosIconMobile from '../../images/Photos icon mobile.png';
 import MapsIconMobile from '../../images/Maps icon mobile.png';
+import CircleApple from '../../images/Circle Apple.svg';
+import UnderlineExclusively from '../../images/underline exclusively.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const MOBILEICONWIDTH = 30;
 
@@ -57,7 +61,10 @@ const BuiltExclusively = ({ screenWidth }) => {
       <div style={{ textAlign: 'center', marginTop: '50px' }}>
         {screenWidth > 964
         ? <div>
-            <p style={{ fontSize: '30px', marginBottom: '10px' }}>Built exclusively for Apple</p>
+            <p style={{ fontSize: '30px', marginBottom: '10px' }}>
+              Built <Underline text='execlusively' src={UnderlineExclusively} width='165' bottom='-8' left='6' /> for&nbsp;
+              <Circle text='Apple' src={CircleApple} width='100' left='8' />
+            </p>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <p>
                 Driven by the creative and aspiring UI & UX designers out there,<br />Mockup builds an exclusive
@@ -67,7 +74,10 @@ const BuiltExclusively = ({ screenWidth }) => {
             </div>
           </div>
         : <div>
-            <p style={{ fontSize: '30px', marginBottom: '10px' }}>Built exclusively<br /> for Apple</p>
+            <p style={{ fontSize: '30px', marginBottom: '10px' }}>
+              Built <Circle text='execlusively' src={CircleApple} width='200' top='-60' left='-7' /><br /> for&nbsp;
+              <Underline text='Apple' src={UnderlineExclusively} width='90' bottom='-8' left='6' />
+            </p>
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <p>
                 Driven by the creative and aspiring UI & UX<br />designers out there, Mockup builds an<br />exclusive

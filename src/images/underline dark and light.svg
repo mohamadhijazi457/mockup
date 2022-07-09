@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="359.286" height="11.877" viewBox="0 0 359.286 11.877">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="underline_dark_and_light" data-name="underline dark and light" d="M463.559,292.7c28.558-1.333,8.248-1.889,87.225-5.569,85.307-3.975,143.419-.366,206.946.6l1.906.029c-57.655-4.793-119.425-5.658-179.87-4.456s-119.967,4.416-179.278,7.628" transform="translate(-400.434 -281.825)" fill="none" stroke="#f0c954" stroke-miterlimit="10" stroke-width="2" pathLength="10" />
+</svg>
