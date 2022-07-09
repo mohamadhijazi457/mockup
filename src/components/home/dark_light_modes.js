@@ -81,11 +81,11 @@ const IpadFlex = styled.div`
 
   @media only screen and (max-width: 1025px) {
     flex-direction: column;
-    align-items: end;
   }
 
   @media only screen and (max-width: 725px) {
     margin-top: 20px;
+    align-items: end;
   }
 `;
 
