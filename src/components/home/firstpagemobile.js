@@ -18,8 +18,8 @@ const FirstPageMobile = () => {
           </a>
         </ImgsMobile>
         <IpadImgContainer>
-            <img src={PenResponsive}  alt='PenImageMobile_png' style={{width:"230px" ,height:"20px", paddingLeft:"160px" }}/>
-            <img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{width:"370px" ,height:"300px", paddingLeft:"20px"}}/>
+            <img src={PenResponsive}  alt='PenImageMobile_png' style={{width:"230px" ,height:"20px", paddingLeft:"158px" }}/>
+            <img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{width:"340px" ,height:"300px", paddingLeft:"48px"}}/>
         </IpadImgContainer>
 
     </ContainerOneMobile>
@@ -35,19 +35,19 @@ const FirstPageMobile = () => {
       align-items: center;
       text-align:center;
       flex-direction:column;
-      font-family:HelveticaNeue-Medium;
+      font-family:HelveticaNeue-Medium.ttf;
       padding: 50px 100px;
       padding-Bottom:20px;
-      font-size:20px;
+      font-size:25px;
      `;
      const MockupDescription = styled.div`
       justify-content: center;
       align-items: center;
       text-align:center;
       flex-direction:column;
-      font-family:HelveticaNeue-Regular;
+      font-family:HelveticaNeue-Regular.ttf;
       padding-bottom:5px;
-      font-size:10px;
+      font-size:15px;
 
      `;
      const ImgsMobile =styled.div`

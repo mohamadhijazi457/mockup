@@ -37,7 +37,7 @@ const FirstPage = () => {
       align-items: center;
       text-align:center;
       flex-direction:column;
-      font-family:HelveticaNeue-Medium;
+      font-family:HelveticaNeue-Medium.ttf;
       padding: 50px 100px;
       padding-Bottom:20px;
       font-size:30px;
@@ -47,7 +47,7 @@ const FirstPage = () => {
       align-items: center;
       text-align:center;
       flex-direction:column;
-      font-family:HelveticaNeue-Regular;
+      font-family:HelveticaNeue-Regular.ttf;
       padding-bottom:5px;
       font-size:15px;
       `;

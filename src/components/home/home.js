@@ -12,6 +12,12 @@ import ShareExperience from './share_experience';
 import FirstPageMobile from './firstpagemobile';
 import FirstPageIpad from './firstpageipad';
 import Canvas from './canvas';
+import DiverseTemplatesMobile from './diversetemplatesmobile';
+import CanvasMobile from './canvasmobile';
+import CanvasIpad from './canvasipad';
+import DiverseTemplatesIpad from './diversetemplatesipad';
+import ElementsSketching from './elementssketching';
+import ElementsSketchingMobile from './elementssketchingmobile';
 
 const Home = ({ screenWidth }) => {
   return (
@@ -31,11 +37,48 @@ const Home = ({ screenWidth }) => {
          
         
       };
-      
-      
     </div>
-      <DiverseTemplates />
-      <Canvas />
+    <div>
+      {
+        screenWidth > 1025
+        ? <div>
+            <DiverseTemplates />
+          </div>
+        : screenWidth <= 1025 && screenWidth > 964
+        ? <div>
+          <DiverseTemplatesIpad/>
+          </div>
+        : <DiverseTemplatesMobile/>
+
+      };
+    </div>      
+    <div>
+      {
+        screenWidth >1025
+        ? <div>
+          <Canvas/>
+          </div>
+          : screenWidth <= 1025 && screenWidth > 964
+          ? <div>
+          <CanvasIpad/>
+          </div>
+          : <CanvasMobile/>
+      };
+    </div>
+    <div>
+      {
+    screenWidth >1025
+        ? <div>
+          <ElementsSketching/>
+          </div>
+          : screenWidth <= 1025 && screenWidth > 964
+          ? <div>
+
+          </div>
+          : <ElementsSketchingMobile/>
+      };
+
+    </div>
       <ICloudSync screenWidth={screenWidth} />
       <ExportOptions screenWidth={screenWidth} />
       <DarkLightModes screenWidth={screenWidth} />
