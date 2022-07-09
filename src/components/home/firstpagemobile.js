@@ -66,6 +66,10 @@ const IpadImgContainer = styled.div`
   display: flex;
   justify-content: column;
   flex-direction: column;
+
+  @media only screen and (max-width: 960px) {
+    align-items: end;
+  }
 `;
 
 export default FirstPageMobile;

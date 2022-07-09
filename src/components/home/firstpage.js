@@ -59,7 +59,7 @@ const ImgsContainer = styled.div`
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  paddingTop: 300px
+  paddingTop: 300px;
 `;
 
 const IpadImgContainer = styled.div`
