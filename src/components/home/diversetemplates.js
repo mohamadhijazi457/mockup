@@ -16,7 +16,7 @@ const DiverseTemplates = () => {
         than 35 distinct options to<br/> choose from including:</p>
       <ListServices>
         <div>
-          <ul style={{fontFamily:"HelveticaNeue-Regular.ttf", fontSize:"12px",marginBottom:"10px"}}>
+          <ul style={{fontFamily:"HelveticaNeue-Regular", fontSize:"12px",marginBottom:"10px"}}>
             <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16px",height:"12px",
               borderRadius:"10px",textAlign:"center",paddingLeft:"5px",paddingRight:"7px",marginRight:"5px"}}>iPhone</li>
             <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16px",height:"12px",

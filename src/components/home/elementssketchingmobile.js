@@ -8,7 +8,7 @@ const ElementsSketchingMobile = () => {
         <FirstContainer>
             <Left>
                 <Text>
-                    <h1 style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px",paddingLeft:"15px",textAlign:"center",paddingBottom:"40px",paddingTop:"70px"}}>Premium Elements<br/>for sleek sketching</h1>
+                    <p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px",paddingLeft:"15px",textAlign:"center",paddingBottom:"40px",paddingTop:"70px"}}>Premium Elements<br/>for sleek sketching</p>
                     <p style={{fontFamily:"HelvaticaNeue-Regular", fontSize:"20px",paddingLeft:"15px",paddingBottom:"30px",textAlign:"center"}}>
 With elements involved in the mix, you can<br/>
 focus on your ideas while delivering <br/> 

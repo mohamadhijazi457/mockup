@@ -10,7 +10,7 @@ const FirstPageMobile = () => {
   return(
     <ContainerOneMobile>
       <FirstHeading className="h1"><p style={{ fontSize: "34px" }}>Sketch out your UI/<br/>
-        UX projects without paper</p></FirstHeading>
+        UX projects without <br />paper</p></FirstHeading>
       <MockupDescription className="desc">
         <p>Mockup redefines the entire process of <br/>sketching UI & UX projects for iOS. With <br/>
         the extensive collection of tools and <br/> features that Mockup provides, it’s the <br/>
@@ -41,7 +41,7 @@ const FirstHeading=styled.div`
   text-align: center;
   flex-direction: column;
   font-family: HelveticaNeue-Medium;
-  padding: 50px 100px;
+  padding-top: 50px;
   padding-Bottom: 20px;
 `;
 
