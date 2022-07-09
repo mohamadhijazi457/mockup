@@ -3,6 +3,10 @@ import styled from 'styled-components';
 import PNGDoc from '../../images/PNG Doc.svg';
 import PDFDoc from '../../images/PDF Doc.svg';
 import MockupDoc from '../../images/Mockup Doc.svg';
+import CircleExport from '../../images/Circle Export.svg';
+import UnderlineExport from '../../images/Underline every scenario.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const ExportOptions = ({ screenWidth }) => {
   return (
@@ -13,19 +17,21 @@ const ExportOptions = ({ screenWidth }) => {
         <img src={PNGDoc} width='90' style={{ marginRight: '38px' }} />
         <img src={MockupDoc} width='120' style={{ marginRight: '38px' }} />
         <div>
-          <Title>Export options<br />for every scenario</Title>
+          <Title><Circle text='Export' src={CircleExport} width='140' top='-4' left='-20' /> options<br />
+            for <Underline text='every scenario' src={UnderlineExport} width='250' bottom='-20' /></Title>
           <p>Mockup provides you with a variety of export options.
             The selected<br />area can be exported as PDF, individual images, or .mockup files,<br />which allows you
-            to share what you created and<br />exchange.mockup files with other users.</p>
+            to share what you created and<br />exchange .mockup files with other users.</p>
         </div>
       </FlexWrapper>
     : screenWidth <= 1025 && screenWidth > 964
     ? <ColumnFlex>
         <div style={{ marginBottom: '28px' }}>
-          <Title>Export options<br />for every scenario</Title>
+          <Title><Circle text='Export' src={CircleExport} width='140' top='-4' left='-20' /> options<br />
+            for every scenario</Title>
           <p>Mockup provides you with a variety of export options.
             The selected<br />area can be exported as PDF, individual images, or .mockup files,<br />which allows you
-            to share what you created and<br />exchange.mockup files with other users.</p>
+            to share what you created and<br />exchange .mockup files with other users.</p>
         </div>
         <FlexWrapper>
           <img src={PDFDoc} width='120' style={{ marginRight: '38px' }} />
@@ -35,10 +41,11 @@ const ExportOptions = ({ screenWidth }) => {
       </ColumnFlex>
     : <ColumnFlex>
         <div style={{ marginBottom: '28px' }}>
-          <Title>Export options<br />for every scenario</Title>
+          <Title><Circle text='Export' src={CircleExport} width='140' top='-4' left='-20' /> options<br />
+            for every scenario</Title>
           <p>Mockup provides you with a variety of<br />export options.
             The selected area can be<br />exported as PDF, individual images,<br />or .mockup files, which allows you
-            to<br />share what you created and<br />exchange.mockup files with other users.</p>
+            to<br />share what you created and<br />exchange .mockup files with other users.</p>
         </div>
         <FlexWrapper>
           <img src={PDFDoc} width='100' style={{ marginRight: '38px' }} />

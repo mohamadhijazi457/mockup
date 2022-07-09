@@ -49,7 +49,7 @@ const DarkLightModes = ({ screenWidth }) => {
           <IpadImage src={DarkLightIpad} />
         </IpadFlex>
       : <IpadFlex>
-          <img src={ApplePencilMobile} width='400' />
+          <img src={ApplePencilMobile} width='280' />
           <IpadImage src={DarkLightMobile} />
         </IpadFlex>}
     </DarkLightModesContainer>
@@ -81,10 +81,10 @@ const IpadFlex = styled.div`
 
   @media only screen and (max-width: 1025px) {
     flex-direction: column;
+    align-items: end;
   }
 
   @media only screen and (max-width: 725px) {
-    align-items: end;
     margin-top: 20px;
   }
 `;
@@ -92,8 +92,12 @@ const IpadFlex = styled.div`
 const IpadImage = styled.img`
   width: 750px;
 
+  @media only screen and (max-width: 1025px) {
+    width: 500px;
+  }
+
   @media only screen and (max-width: 725px) {
-    width: 100%;
+    width: 420px;
   }
 `;
 
