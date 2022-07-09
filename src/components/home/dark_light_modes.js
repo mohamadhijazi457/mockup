@@ -92,10 +92,6 @@ const IpadFlex = styled.div`
 const IpadImage = styled.img`
   width: 750px;
 
-  @media only screen and (max-width: 1025px) {
-    width: 500px;
-  }
-
   @media only screen and (max-width: 725px) {
     width: 420px;
   }
