@@ -8,8 +8,8 @@ const ElementsSketching = () => {
         <FirstContainer>
             <Left>
                 <Text>
-                    <h1 style={{fontFamily:"HelvaticaNeue-Medium.ttf", fontSize:"34px",paddingBottom:"15px"}}>Premium Elements<br/>for sleek sketching</h1>
-                    <p style={{fontFamily:"HelvaticaNeue-Regular.ttf", fontSize:"15px"}}>
+                    <h1 style={{fontFamily:"HelvaticaNeue-Medium", fontSize:"34px",paddingBottom:"15px"}}>Premium Elements<br/>for sleek sketching</h1>
+                    <p style={{fontFamily:"HelvaticaNeue-Regular", fontSize:"15px"}}>
 With elements involved in the mix, you can focus on your ideas<br/>
 while delivering clean, consistent sketches, ready to be rendered.<br/>
 Mockup comes with 28 pre-existing elements in the Mockup<br/>

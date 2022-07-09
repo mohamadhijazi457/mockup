@@ -10,8 +10,8 @@ const DiverseTemplates = () => {
         <img src={LeftSideImg} alt='LeftSide_png' style={{width:"330px", height:"450px"}}/>
       </LeftSide>
       <TextMiddle>
-      <p style={{fontFamily:"HelveticaNeue-Medium.ttf", fontSize:"34px"}}>Over 35 diverse<br/> templates on hand</p>
-      <p style={{fontFamily:"HelveticaNeue-Regular.ttf",paddingTop:"30px"}}>
+      <p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px"}}>Over 35 diverse<br/> templates on hand</p>
+      <p style={{fontFamily:"HelveticaNeue-Regular",paddingTop:"30px"}}>
         Mockup covers various templates to help you envision your project<br/> within its intended frame. It offers more
         than 35 distinct options to<br/> choose from including:</p>
       <ListServices>
@@ -33,7 +33,7 @@ const DiverseTemplates = () => {
         </div>
         
         <div>
-          <ul style={{fontFamily:"HelveticaNeue-Regular.ttf", fontSize:"12px",display:"inline",marginTop:"20px"}}>
+          <ul style={{fontFamily:"HelveticaNeue-Regular", fontSize:"12px",display:"inline",marginTop:"20px"}}>
             <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"12px",height:"9px",
               borderRadius:"10px",textAlign:"center",paddingLeft:"0px",paddingRight:"9px",marginRight:"5px"}}>&nbsp; &nbsp;Widgets</li>
             <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16px",height:"12px",

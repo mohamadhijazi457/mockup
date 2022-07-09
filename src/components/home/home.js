@@ -18,6 +18,7 @@ import CanvasIpad from './canvasipad';
 import DiverseTemplatesIpad from './diversetemplatesipad';
 import ElementsSketching from './elementssketching';
 import ElementsSketchingMobile from './elementssketchingmobile';
+import ElementsSketchingIpad from './elementssketchingipad';
 
 const Home = ({screenWidth}) => {
 
@@ -36,6 +37,7 @@ const Home = ({screenWidth}) => {
           <FirstPageIpad/>
           <DiverseTemplatesIpad/>
           <CanvasIpad/>
+          <ElementsSketchingIpad/>
         </div>
       : <div>
           <FirstPageMobile/>

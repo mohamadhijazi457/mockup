@@ -40,7 +40,7 @@ const FirstHeading=styled.div`
   align-items: center;
   text-align: center;
   flex-direction: column;
-  font-family: HelveticaNeue-Medium.ttf;
+  font-family: HelveticaNeue-Medium;
   padding: 50px 100px;
   padding-Bottom: 20px;
 `;
@@ -50,7 +50,7 @@ const MockupDescription = styled.div`
   align-items: center;
   text-align: center;
   flex-direction: column;
-  font-family: HelveticaNeue-Regular.ttf;
+  font-family: HelveticaNeue-Regular;
   padding-bottom: 5px;
 `;
 
