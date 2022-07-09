@@ -2,13 +2,18 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import RightSideImg from '../../images/right group devices mobile diverse.png';
 import LeftSideImg from '../../images/left group devices mobile diverse.png';
+import CircleOver35 from '../../images/circle over 35.svg';
+import UnderlineTemplates from '../../images/underline templates.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const DiverseTemplatesMobile = () => {
   return(
     <ContainerDiverse>
       <TextMiddle>
       <p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px",paddingLeft:"28px",textAlign:"center",paddingTop:"20px"}}>
-        Over 35 diverse<br/> templates on hand</p>
+      <Circle text='Over 35' src={CircleOver35} width='140' top='-5' left='-10' /> diverse<br/>
+        <Underline text='templates' src={UnderlineTemplates} width='160' bottom='-10' left='-4' /> on hand</p>
       <p style={{fontFamily:"HelveticaNeue-Regular",paddingTop:"30px", textAlign:"center",paddingLeft:"40px"}}>
         Mockup covers various templates to help <br/> you envision your project within its <br/> intended frame.
         It offers more than 35 <br/> distinct options to choose from including:</p>

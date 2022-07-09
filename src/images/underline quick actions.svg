@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330.375" height="16.063" viewBox="0 0 330.375 16.063">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="underline_quick_actions" data-name="underline quick actions" d="M-4403.418-14954.117s65.3-11.911,160.181-13.82c49.538-1,105.1,4.6,168,6.622" transform="translate(4404.581 14969.018)" fill="none" stroke="#e2464a" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>
