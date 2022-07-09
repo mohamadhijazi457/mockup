@@ -23,62 +23,25 @@ const Home = ({ screenWidth }) => {
   return (
     <>
       <Navbar />
-      <div>
-      {
-        screenWidth > 1025
-        ? <div>
-            <FirstPage />
-          </div>
-        : screenWidth <= 1025 && screenWidth > 964
-        ? <div>
-          <FirstPageIpad/>
-          </div>
-        : <FirstPageMobile/>
-         
-        
-      };
-    </div>
-    <div>
-      {
-        screenWidth > 1025
-        ? <div>
-            <DiverseTemplates />
-          </div>
-        : screenWidth <= 1025 && screenWidth > 964
-        ? <div>
-          <DiverseTemplatesIpad/>
-          </div>
-        : <DiverseTemplatesMobile/>
-
-      };
-    </div>      
-    <div>
-      {
-        screenWidth >1025
-        ? <div>
+      {screenWidth > 1025
+      ? <div>
+          <FirstPage />
+          <DiverseTemplates />
           <Canvas/>
-          </div>
-          : screenWidth <= 1025 && screenWidth > 964
-          ? <div>
-          <CanvasIpad/>
-          </div>
-          : <CanvasMobile/>
-      };
-    </div>
-    <div>
-      {
-    screenWidth >1025
-        ? <div>
           <ElementsSketching/>
-          </div>
-          : screenWidth <= 1025 && screenWidth > 964
-          ? <div>
-
-          </div>
-          : <ElementsSketchingMobile/>
-      };
-
-    </div>
+        </div>
+      : screenWidth <= 1025 && screenWidth > 964
+      ? <div>
+          <FirstPageIpad/>
+          <DiverseTemplatesIpad/>
+          <CanvasIpad/>
+        </div>
+      : <div>
+          <FirstPageMobile/>
+          <DiverseTemplatesMobile/>
+          <CanvasMobile/>
+          <ElementsSketchingMobile/>
+        </div>}
       <ICloudSync screenWidth={screenWidth} />
       <ExportOptions screenWidth={screenWidth} />
       <DarkLightModes screenWidth={screenWidth} />
