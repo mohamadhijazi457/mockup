@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Styled from 'styled-components';
-import RightSideImg from '../../images/elements right.png';
+import RightSideImg from '../../images/elements right mobile.png';
 import LeftSideImg from '../../images/bottom list.png';
 
 const ElementsSketchingMobile = () => {
