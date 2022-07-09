@@ -81,20 +81,16 @@ const IpadFlex = styled.div`
 
   @media only screen and (max-width: 1025px) {
     flex-direction: column;
-    align-items: end;
   }
 
   @media only screen and (max-width: 725px) {
     margin-top: 20px;
+    align-items: end;
   }
 `;
 
 const IpadImage = styled.img`
   width: 750px;
-
-  @media only screen and (max-width: 1025px) {
-    width: 500px;
-  }
 
   @media only screen and (max-width: 725px) {
     width: 420px;
