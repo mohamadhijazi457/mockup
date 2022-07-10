@@ -11,7 +11,7 @@ const Navbar = () => {
         <NameContainer className="name">Mockup</NameContainer>
       </LeftContainer>
       <RightSide>
-        <GetAppbtn className="btn" as="a" href="https://apps.apple.com/app/mockup-sketch-ui-ux/id1527554407">Get App</GetAppbtn>
+        <GetAppbtn className="btn" as="a" href="https://apps.apple.com/app/mockup-sketch-ui-ux/id1527554407" target='_blank'>Get App</GetAppbtn>
       </RightSide>
     </NavbarContainer>
   );

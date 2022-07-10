@@ -13,7 +13,7 @@ const DiverseTemplatesIpad = () => {
       <TextMiddle>
       <p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px"}}>
         <Circle text='Over 35' src={CircleOver35} width='140' top='-5' left='-10' /> diverse<br/>
-        <Underline text='templates' src={UnderlineTemplates} width='160' bottom='-10' left='-4' /> on hand</p>
+        <Underline text='templates' src={UnderlineTemplates} width='170' bottom='-10' left='-4' /> on hand</p>
       <p style={{fontFamily:"HelveticaNeue-Regular", paddingTop:"30px", textAlign:"center"}}>
         Mockup covers various templates to help <br/> you envision your project within its <br/> intended frame. It offers
         more than 35 <br/> distinct options to choose from including:</p>

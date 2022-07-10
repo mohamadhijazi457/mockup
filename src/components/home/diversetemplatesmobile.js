@@ -12,7 +12,7 @@ const DiverseTemplatesMobile = () => {
     <ContainerDiverse>
       <TextMiddle>
       <p style={{fontFamily:"HelveticaNeue-Medium.ttf", fontSize:"34px",paddingLeft:"10px",textAlign:"center",paddingTop:"20px"}}>
-        Over 35 diverse<br/> templates on hand</p>
+      <Circle text='Over 35' src={CircleOver35} width='150' top='-5' left='-14' /> diverse<br/> <Underline text='templates' src={UnderlineTemplates} width='160' bottom='-10' left='-4' /> on hand</p>
       <p style={{fontFamily:"HelveticaNeue-Regular.ttf",paddingTop:"30px", textAlign:"center",paddingLeft:"10px"}}>
         Mockup covers various templates to help <br/> you envision your project within its <br/> intended frame.
         It offers more than 35 <br/> distinct options to choose from including:</p>
