@@ -3,12 +3,12 @@ import Navbar from '../common/navbar';
 import Footer from '../common/footer';
 import SupportPage from './support_page';
 
-const Support = () => {
+const Support = ({ screenWidth }) => {
   return (
     <>
       <Navbar />
       <SupportPage />
-      <Footer />
+      <Footer screenWidth={screenWidth} />
     </>
   );
 };
