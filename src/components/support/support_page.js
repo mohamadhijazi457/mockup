@@ -12,19 +12,19 @@ const SupportPage = ({ screenWidth }) => {
         ? <FlexWrapper>
             <SupportElement>
               <img src={IPadUser} style={{ marginRight: '20px' }} />
-              <p style={{ position: 'absolute', top: '45%', left: '32%' }}>User Guides</p>
+              <p style={{ position: 'absolute', top: '45%', left: '32%' }}><b><u>User Guides</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '20%' }}>Instructions explaining<br />how to use Mockup.</p>
             </SupportElement>
 
             <SupportElement>
               <img src={IpadCommunity} style={{ marginRight: '20px' }} />
-              <p style={{ position: 'absolute', top: '45%', left: '26%' }}>Community Help</p>
+              <p style={{ position: 'absolute', top: '45%', left: '26%' }}><b><u>Community Help</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '12%' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
             </SupportElement>
             
             <SupportElement>
               <img src={IpadEmail} />
-              <p style={{ position: 'absolute', top: '45%', left: '32%' }}>Email Support</p>
+              <p style={{ position: 'absolute', top: '45%', left: '32%' }}><b><u>Email Support</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '18%' }}>Get in touch. We’d love to<br />answer your questions.</p>
             </SupportElement>
           </FlexWrapper>
@@ -32,36 +32,36 @@ const SupportPage = ({ screenWidth }) => {
         ? <FlexWrapper>
             <SupportElement>
               <img src={IPadUser} style={{ marginRight: '20px' }} />
-              <p style={{ position: 'absolute', top: '45%', left: '30%' }}>User Guides</p>
+              <p style={{ position: 'absolute', top: '45%', left: '30%' }}><b><u>User Guides</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '24%' }}>Instructions explaining how<br />to use Mockup.</p>
 
               <img src={IpadCommunity} style={{ marginRight: '20px' }} />
-              <p style={{ position: 'absolute', top: '45%', left: '58%' }}>Community Help</p>
+              <p style={{ position: 'absolute', top: '45%', left: '58%' }}><b><u>Community Help</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '54%' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
             </SupportElement>
             
             <SupportElement>
               <img src={IpadEmail} style={{  marginTop: '20px'}} />
-              <p style={{ position: 'absolute', top: '45%', left: '45%' }}>Email Support</p>
+              <p style={{ position: 'absolute', top: '45%', left: '45%' }}><b><u>Email Support</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '41%' }}>Get in touch. We’d love to<br />answer your questions.</p>
             </SupportElement>
           </FlexWrapper>
         : <FlexWrapper>
             <SupportElement>
               <img src={IPadUser} style={{ marginBottom: '20px' }} />
-              <p style={{ position: 'absolute', top: '45%', left: '41%' }}>User Guides</p>
+              <p style={{ position: 'absolute', top: '45%', left: '41%' }}><b><u>User Guides</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '32%' }}>Instructions explaining<br />how to use Mockup.</p>
             </SupportElement>
 
             <SupportElement>
               <img src={IpadCommunity} style={{ marginBottom: '20px' }} />
-              <p style={{ position: 'absolute', top: '45%', left: '37%' }}>Community Help</p>
+              <p style={{ position: 'absolute', top: '45%', left: '37%' }}><b><u>Community Help</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '29%' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
             </SupportElement>
             
             <SupportElement>
               <img src={IpadEmail} />
-              <p style={{ position: 'absolute', top: '45%', left: '40%' }}>Email Support</p>
+              <p style={{ position: 'absolute', top: '45%', left: '40%' }}><b><u>Email Support</u></b></p>
               <p style={{ position: 'absolute', top: '55%', left: '30%' }}>Get in touch. We’d love to<br />answer your questions.</p>
             </SupportElement>
           </FlexWrapper>}
