@@ -23,7 +23,11 @@ import DrawingBox from './drawingbox';
 import DrawingBoxPhone from './drawingboxphone';
 import DrawingBoxIpad from './drawingboxipad';
 import VariousDrawing from './variousdrawing';
-
+import VariousDrawingIpad from './variousdrawingipad';
+import VariousDrawingMobile from './variousdrawingmobile';
+import GridAndShape from './gridandshape';
+import GridAndShapeIpad from './gridandshapeipad';
+import GridAndShapeMobile from './gridandshapemobile';
 const Home = ({screenWidth}) => {
 
   return (
@@ -37,6 +41,7 @@ const Home = ({screenWidth}) => {
           <ElementsSketching/>
           <DrawingBox/>
           <VariousDrawing/>
+          <GridAndShape/>
         </div>
       : screenWidth <= 1025 && screenWidth > 964
       ? <div>
@@ -45,6 +50,8 @@ const Home = ({screenWidth}) => {
           <CanvasIpad/>
           <ElementsSketchingIpad/>
           <DrawingBoxIpad/>
+          <VariousDrawingIpad/>
+          <GridAndShapeIpad/>
         </div>
       : <div>
           <FirstPageMobile/>
@@ -52,6 +59,9 @@ const Home = ({screenWidth}) => {
           <CanvasMobile/>
           <ElementsSketchingMobile/>
           <DrawingBoxPhone/>
+          <VariousDrawingMobile/>
+          <GridAndShapeMobile/>
+          
         </div>}
       <ICloudSync screenWidth={screenWidth} />
       <ExportOptions screenWidth={screenWidth} />
