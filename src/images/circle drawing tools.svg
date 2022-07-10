@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="355.965" height="56.71" viewBox="0 0 355.965 56.71">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="circle_drawing_tools" data-name="circle drawing tools" d="M-4310.366-15062.836s-88.909-20.289-216.64-8.589-175.749,54.9,71.388,50.753,164.024-50.753,164.024-50.753" transform="translate(4633.042 15076.108)" fill="none" stroke="#8c3088" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>

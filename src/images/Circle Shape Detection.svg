@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="422.222" height="82.719" viewBox="0 0 422.222 82.719">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="Circle_Shape_Detection" data-name="Circle Shape Detection" d="M-4252.074-15060.3s-105.021-24.5-255.9-10.373-207.6,66.3,84.325,61.3,193.75-61.3,193.75-61.3" transform="matrix(0.999, 0.035, -0.035, 0.999, 4106.45, 15228.618)" fill="none" stroke="#00c6ad" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>

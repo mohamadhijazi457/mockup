@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="117.558" height="10.044" viewBox="0 0 117.558 10.044">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="Underline_flow" data-name="Underline flow" d="M-4403.418-14958.117s50.854-12.1,115.267-6.2" transform="translate(4404.622 14966.957)" fill="none" stroke="#00c6ad" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>

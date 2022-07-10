@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import PngVarious from '../../images/drawing tools section.png'
 import PngVariousMobile from '../../images/drawing tools section ipad.png';
+import CircleDrawing from '../../images/circle drawing tools.svg';
+import UnderlineFingerprint from '../../images/underline at your fingertps.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const VariousDrawing = ({ screenWidth }) => {
     return(
@@ -10,16 +14,19 @@ const VariousDrawing = ({ screenWidth }) => {
 						{screenWidth > 1025
 						? <div>
 								<Image src={PngVarious} />
-								<Text left='39' top='22'>Various Drawing Tools<br/>at your fingertips</Text>
+								<Text left='39' top='22'>Various <Circle text='Drawing Tools' src={CircleDrawing} width='250' left='-4' /><br/>
+									<Underline text='at your fingertips' src={UnderlineFingerprint} width='300' bottom='-18' left='-5' /></Text>
 							</div>
 						: screenWidth <= 1025 && screenWidth > 964
 						? <div>
 								<Image src={PngVariousMobile} height='1200px' />
-								<Text left='33' top='28'>Various Drawing Tools<br/>at your fingertips</Text>
+								<Text left='33' top='28'>Various <Circle text='Drawing Tools' src={CircleDrawing} width='250' left='-4' /><br/>
+									<Underline text='at your fingertips' src={UnderlineFingerprint} width='300' bottom='-18' left='-5' /></Text>
 							</div>
 						: <div>
 								<Image src={PngVariousMobile} height='750px' />
-								<Text left='28' top='28' style={{ fontSize: '20px' }}>Various Drawing Tools<br/>at your fingertips</Text>
+								<Text left='28' top='28' style={{ fontSize: '20px' }}>Various <Circle text='Drawing' src={CircleDrawing} width='100' top='25' left='-6' /> Tools<br/>
+									at your <Underline text='fingertips' src={UnderlineFingerprint} width='90' bottom='-18' /></Text>
 							</div>}
             </FlexingContainer>
         </FirstContainer>
