@@ -7,7 +7,7 @@ const Support = ({ screenWidth }) => {
   return (
     <>
       <Navbar />
-      <SupportPage />
+      <SupportPage screenWidth={screenWidth} />
       <Footer screenWidth={screenWidth} />
     </>
   );

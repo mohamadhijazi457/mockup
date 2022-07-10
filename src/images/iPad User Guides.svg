@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="283.111" height="216.747" viewBox="0 0 283.111 216.747">
+  <g id="iPad_User_Guides" data-name="iPad User Guides" transform="translate(-1017.755 -6312.5)">
+    <g id="iPad_Frame" data-name="iPad Frame" transform="translate(1390.366 6223.509) rotate(90)">
+      <path id="shape" d="M102.89,90c-8.483,0-13.4,5.847-13.4,13.377l0,255.356c0,7.53,4.916,13.378,13.4,13.378H291.839c8.484,0,13.4-5.848,13.4-13.378l0-255.356c0-7.53-4.916-13.377-13.4-13.377Z" transform="translate(0 0)" fill="rgba(0,0,0,0)" stroke="#000" stroke-miterlimit="10" stroke-width="1" fill-rule="evenodd"/>
+      <path id="border_screen" data-name="border screen" d="M129.458,126.331H320.43a3.641,3.641,0,0,1,3.644,3.637h0l0,257.54a3.641,3.641,0,0,1-3.644,3.639H129.462a3.642,3.642,0,0,1-3.644-3.639l0-257.54a3.641,3.641,0,0,1,3.644-3.638Z" transform="translate(-27.629 -27.636)" fill="rgba(0,0,0,0)" stroke="#000" stroke-miterlimit="10" stroke-width="1" fill-rule="evenodd"/>
+    </g>
+    <text id="_" data-name="􀉚" transform="translate(1102.256 6336)" font-size="52" font-family="ArialMT, Arial"><tspan x="37.5" y="47">􀉚</tspan></text>
+  </g>
+</svg>
