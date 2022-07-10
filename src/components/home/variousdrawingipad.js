@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
-import PngVarious from '../../images/drawing tools section.png'
+import PngVarious from '../../images/drawing tools section ipad.png'
 
-const VariousDrawing = () => {
+const VariousDrawingIpad = () => {
     return(
         <FirstContainer>
             <FlexingContainer>
-            <img src={PngVarious} width="1350px"/>
+            <img src={PngVarious} width="1020px" height="1200px"/>
             <p style={{fontFamily: 'HelveticaNeue-Medium'}}>Various Drawing Tools<br/>at your fingertips</p>
             </FlexingContainer>
         </FirstContainer>
@@ -20,4 +20,4 @@ margin-bottom:30px;
 const FlexingContainer = styled.div`
 `;
 
-export default VariousDrawing;
+export default VariousDrawingIpad;

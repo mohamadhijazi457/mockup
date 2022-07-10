@@ -7,14 +7,14 @@ const DiverseTemplatesMobile = () => {
   return(
     <ContainerDiverse>
       <TextMiddle>
-      <p style={{fontFamily:"HelveticaNeue-Medium.ttf", fontSize:"34px",paddingLeft:"28px",textAlign:"center",paddingTop:"20px"}}>
+      <p style={{fontFamily:"HelveticaNeue-Medium.ttf", fontSize:"34px",paddingLeft:"10px",textAlign:"center",paddingTop:"20px"}}>
         Over 35 diverse<br/> templates on hand</p>
-      <p style={{fontFamily:"HelveticaNeue-Regular.ttf",paddingTop:"30px", textAlign:"center",paddingLeft:"40px"}}>
+      <p style={{fontFamily:"HelveticaNeue-Regular.ttf",paddingTop:"30px", textAlign:"center",paddingLeft:"10px"}}>
         Mockup covers various templates to help <br/> you envision your project within its <br/> intended frame.
         It offers more than 35 <br/> distinct options to choose from including:</p>
       <ListServices>
       <div>
-        <ul style={{fontFamily:"HelveticaNeue-Regular.ttf", fontSize:"15px",marginBottom:"10px",paddingTop:"20px",paddingLeft:"80px"}}>
+        <ul style={{fontFamily:"HelveticaNeue-Regular.ttf", fontSize:"15px",marginBottom:"10px",paddingTop:"20px",paddingLeft:"10px"}}>
           <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16px",height:"12px",
             borderRadius:"10px",textAlign:"center",paddingLeft:"5px",paddingRight:"7px",marginRight:"5px"}}>iPhone</li>
           <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16px",height:"12px",
@@ -26,7 +26,7 @@ const DiverseTemplatesMobile = () => {
         </ul>
       </div>
       <div>
-        <ul style={{fontFamily:"HelveticaNeue-Regular.ttf", fontSize:"15px",display:"inline",marginBottom:"10px",paddingLeft:"80px"}}>
+        <ul style={{fontFamily:"HelveticaNeue-Regular.ttf", fontSize:"15px",display:"inline",marginBottom:"10px",paddingLeft:"10px"}}>
           <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16px",height:"12px",
             borderRadius:"10px",textAlign:"center",paddingLeft:"0px",paddingRight:"9px",marginRight:"5px"}}>&nbsp; &nbsp;Mac</li>
           <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16x",height:"12px",
@@ -65,7 +65,7 @@ const TextMiddle = styled.div`
 `;
 
 const ListServices = styled.div`
-  padding-right: 20px;
+  padding-right: 10px;
 `;
 
 const ImgsContainer = styled.div`
@@ -76,7 +76,8 @@ const ImgsContainer = styled.div`
 
 const ListServicesTwo = styled.div`
   padding-top: 10px;
-  padding-left: 50px;
+  padding-left: 0px;
+  padding-right:15px;
 `;
 
 export  default DiverseTemplatesMobile;
