@@ -4,13 +4,18 @@ import FeaturedOnAppStore from '../../images/Featured on App Store.svg';
 import DownloadApp from '../../images/Download on the App Store button.svg';
 import IpadResponsive from '../../images/Light iPad cropped.png';
 import PenResponsive from '../../images/apple pencil mobile.png';
-
+import CircleSketchOut from '../../images/circle sketch out.svg';
+import UnderlinePaper from '../../images/underline without paper.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const FirstPageMobile = () => {
   return(
     <ContainerOneMobile>
-      <FirstHeading className="h1"><p style={{ fontSize: "34px" }}>Sketch out your UI/<br/>
-        UX projects without paper</p></FirstHeading>
+      <FirstHeading className="h1"><p style={{ fontSize: "34px" }}>
+        <Circle text='Sketch out your' src={CircleSketchOut} width='230' /> UI/<br/>
+        UX projects without<br /> 
+        <Underline text='paper' src={UnderlinePaper} width='240' bottom='-40' left='-80' /></p></FirstHeading>
       <MockupDescription className="desc">
         <p>Mockup redefines the entire process of <br/>sketching UI & UX projects for iOS. With <br/>
         the extensive collection of tools and <br/> features that Mockup provides, it’s the <br/>
@@ -41,7 +46,7 @@ const FirstHeading=styled.div`
   text-align: center;
   flex-direction: column;
   font-family: HelveticaNeue-Medium;
-  padding: 50px 100px;
+  padding-top: 50px;
   padding-Bottom: 20px;
 `;
 

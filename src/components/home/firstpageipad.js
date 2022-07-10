@@ -4,12 +4,17 @@ import FeaturedOnAppStore from '../../images/Featured on App Store.svg';
 import DownloadApp from '../../images/Download on the App Store button.svg';
 import IpadResponsive from '../../images/Light iPad.png';
 import PenResponsive from '../../images/apple pencil ipad.png';
+import CircleSketchOut from '../../images/circle sketch out.svg';
+import UnderlinePaper from '../../images/underline without paper.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const FirstPageIpad = () => {
   return(
     <ContainerOneMobile>
-      <FirstHeading className="h1"><p style={{ fontSize: "34px" }}>Sketch out your UI/UX <br></br>
-        projects without paper</p></FirstHeading>
+      <FirstHeading className="h1"><p style={{ fontSize: "34px" }}>
+        <Circle text='Sketch out' src={CircleSketchOut} width='210' top='-2' left='-12' /> your UI/UX <br></br>
+        projects <Underline text='without paper' src={UnderlinePaper} width='240' bottom='-20' left='-2' /></p></FirstHeading>
       <MockupDescription className="desc">
         <p>Mockup redefines the entire process of sketching UI & UX projects <br/>for iOS. With the extensive collection
           of tools and features that<br/> Mockup provides, it’s the ideal app for brainstorming and planning <br/>

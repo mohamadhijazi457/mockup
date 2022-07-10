@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="201.99" height="60.327" viewBox="0 0 201.99 60.327">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="circle_canvas" data-name="circle canvas" d="M-4434.118-15051.524s-74.372-23.518-143.053-10.045-92.895,54.7,39.99,49.925,86.676-54.017,86.676-54.017" transform="translate(4896.143 14987.416) rotate(-1)" fill="none" stroke="#e2464a" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>

@@ -11,7 +11,7 @@ const ElementsSketchingIpad = () => {
             </Right>
             <Left>
                 <Text>
-                    <h1 style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px",paddingLeft:"5px",textAlign:"center",paddingBottom:"40px",paddingTop:"70px"}}>Premium Elements<br/>for sleek sketching</h1>
+                    <p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px",paddingLeft:"5px",textAlign:"center",paddingBottom:"40px",paddingTop:"70px"}}>Premium Elements<br/>for sleek sketching</p>
                     <p style={{fontFamily:"HelvaticaNeue-Regular", fontSize:"20px",paddingLeft:"25px",paddingBottom:"45px",textAlign:"center"}}>
 With elements involved in the mix, you can focus on your ideas<br/>
 while delivering clean, consistent sketches, ready to be rendered.<br/>

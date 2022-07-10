@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="234.335" height="9.952" viewBox="0 0 234.335 9.952">
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="underline_templates" data-name="underline templates" d="M-4403.418-14958.117s102.435-12.1,232.181-6.2" transform="translate(4404.528 14966.959)" fill="none" stroke="#387fed" stroke-linecap="round" stroke-width="2" pathLength="10" />
+</svg>

@@ -2,6 +2,10 @@ import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import RightSideImg from '../../images/right group devices mobile diverse.png';
 import LeftSideImg from '../../images/left group devices mobile diverse.png';
+import CircleOver35 from '../../images/circle over 35.svg';
+import UnderlineTemplates from '../../images/underline templates.svg';
+import Circle from '../common/circle';
+import Underline from '../common/underline';
 
 const DiverseTemplatesMobile = () => {
   return(
@@ -39,7 +43,7 @@ const DiverseTemplatesMobile = () => {
       </div>
       </ListServices>
         <ListServicesTwo>
-          <ul style={{fontFamily:"HelveticaNeue-Regular.ttf", fontSize:"15px",display:"inline",marginTop:"20px"}}>
+          <ul style={{fontFamily:"HelveticaNeue-Regular", fontSize:"15px",display:"inline",marginTop:"20px"}}>
             <li style={{listStyle:"none",display:"inline", border: "1px solid black", width:"16px",height:"12px",
               borderRadius:"10px",textAlign:"center",paddingLeft:"0px",paddingRight:"9px",marginRight:"5px"}}>&nbsp; &nbsp;Blank Template</li>
           </ul>
