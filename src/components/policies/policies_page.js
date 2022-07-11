@@ -5,45 +5,47 @@ import UnderlinePaper from '../../images/underline policies.svg';
 import Circle from '../common/circle';
 import Underline from '../common/underline';
 
-const PoliciesPage = ({screenWidth}) => {
+const PoliciesPage = () => {
   return (
     <Container>
-      <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"80px",paddingLeft:"550px"}}><Circle text='Mockup' src={CircleSketchOut} width='160' top='-2' left='-12'  /> <Underline text='Policies' src={UnderlinePaper} width='140' bottom='-20' left='-2' /></h1>
-             
+      <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"80px", textAlign: "center"}}>
+        <Circle text='Mockup ' src={CircleSketchOut} width='160' top='-2' left='-12'  />
+        <Underline text='Policies' src={UnderlinePaper} width='140' bottom='-20' left='-2' />
+      </h1>
       <FirstContainer>
-      <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px"}}>Terms of Services</h1>
-      <TextOne>
-      <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",marginTop:"15px",paddingLeft:"150px"}}>Mockup provides three free sketches for trial. The app can be<br/>
-      unlocked with lifetime purchase or a yearly subscription.<br/>
-      All payments handled by Apple, such as in-app purchases, can<br/>
-      only be refunded by Apple and with Apple’s consent.<br/>
-      Please contact Apple for help with refunds. </p>
-      <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"40px",paddingRight:"50px"}}>Subscription automatically renews and will be charged for the renewal<br/>
-       unless auto-renew is turned off at least 24 hours before the end of the<br/>
-       current period.<br/>
-       Payment will be charged to iTunes Account at confirmation of purchase.<br/>
-       The duration and price of each subscription is displayed on the purchase<br/>
-       screen, and updated at the time of purchase.</p>
-      </TextOne>
+        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px"}}>Terms of Services</h1>
+        <TextOne>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",marginTop:"15px",paddingLeft:"150px"}}>Mockup provides three free sketches for trial. The app can be<br/>
+        unlocked with lifetime purchase or a yearly subscription.<br/>
+        All payments handled by Apple, such as in-app purchases, can<br/>
+        only be refunded by Apple and with Apple’s consent.<br/>
+        Please contact Apple for help with refunds. </p>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"40px",paddingRight:"50px"}}>Subscription automatically renews and will be charged for the renewal<br/>
+        unless auto-renew is turned off at least 24 hours before the end of the<br/>
+        current period.<br/>
+        Payment will be charged to iTunes Account at confirmation of purchase.<br/>
+        The duration and price of each subscription is displayed on the purchase<br/>
+        screen, and updated at the time of purchase.</p>
+        </TextOne>
       </FirstContainer>
       <SecondContainer>
-      <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Privacy Policy</h1>
-      <TextTwo>
-      <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"150px"}}>The app does not collect or store any personal data. All the user<br/>
-      generated data is stored locally on device and on Apple’s iCloud. </p>
-      <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"40px",paddingRight:"80px",fontColor:"black"}}>Analytics:<br/> 
-      Links to privacy policy of third party service providers used by the app:<br/>
-      <a href='https://firebase.google.com/policies/analytics' target='blank' style={{color:'black'}}><u><b>Google Analytics for Firebase<br/>
-      Firebase Crashlytics
-      </b></u></a>
-      </p>
-      </TextTwo>
-      <TextThree>
-      <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Contact</h1>
-      <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"150px",paddingTop:"30px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
+        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Privacy Policy</h1>
+        <TextTwo>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"150px"}}>The app does not collect or store any personal data. All the user<br/>
+        generated data is stored locally on device and on Apple’s iCloud. </p>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"40px",paddingRight:"80px",fontColor:"black"}}>Analytics:<br/> 
+        Links to privacy policy of third party service providers used by the app:<br/>
+        <a href='https://firebase.google.com/policies/analytics' target='blank' style={{color:'black'}}><u><b>Google Analytics for Firebase<br/>
+        Firebase Crashlytics
+        </b></u></a>
+        </p>
+        </TextTwo>
+        <TextThree>
+        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Contact</h1>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"150px",paddingTop:"30px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
 
-      </p>
-      </TextThree>
+        </p>
+        </TextThree>
       </SecondContainer>
     </Container>
   );
@@ -62,7 +64,7 @@ const FirstContainer = styled.div`
 
 `;
 const SecondContainer = styled.div`
-
+  margin-bottom: 100px;
 `;
 const TextTwo = styled.div`
   display: flex;

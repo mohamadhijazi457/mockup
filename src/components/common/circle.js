@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Circle = (props) => {
-  const { text, src, width, height, top, left } = props;
+  const { text, src, width, top, left } = props;
   return (
     <CircleContainer>
       <CircleText>{text}</CircleText>
-      <Image src={src} width={width} top={top} left={left} />
+      <Image src={src} width={width} top={top} left={left} alt='circle_img' />
     </CircleContainer>
   );
 };

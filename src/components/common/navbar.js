@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import Appicon from '../../images/appicon.png';
 import { Link } from 'react-router-dom';
@@ -7,7 +7,7 @@ const Navbar = () => {
   return ( 
     <NavbarContainer>
       <LeftContainer>
-        <LogoIcon className="logo"><Link to='/'><img src={Appicon} /></Link></LogoIcon>  
+        <LogoIcon className="logo"><Link to='/'><img src={Appicon} alt='app_icon' /></Link></LogoIcon>  
         <NameContainer className="name">Mockup</NameContainer>
       </LeftContainer>
       <RightSide>

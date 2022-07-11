@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import RightSideImgIpad from '../../images/right group devices ipad diverse.png';
 import LeftSideImgIpad from '../../images/left group devices ipad diverse.png';

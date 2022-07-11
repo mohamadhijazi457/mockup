@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
 const Underline = (props) => {
-  const { text, src, width, height, bottom, left } = props;
+  const { text, src, width, bottom, left } = props;
   return (
     <UnderlineContainer>
       <UnderlineText>{text}</UnderlineText>
-      <Image src={src} width={width} bottom={bottom} left={left} />
+      <Image src={src} width={width} bottom={bottom} left={left} alt='underline_img' />
     </UnderlineContainer>
   );
 };

@@ -9,19 +9,11 @@ const Policies = ({ screenWidth }) => {
   return (
     <>
       <Navbar />
-      
       {screenWidth > 1025
-      ? <div>
-          <PoliciesPage />
-        </div>
+      ? <PoliciesPage />
       : screenWidth <= 1025 && screenWidth > 964
-      ? <div>
-          <PoliciesPageIpad/>
-        </div>
-      : <div>
-        <PoliciesPageMobile/>
-          
-        </div>}
+      ? <PoliciesPageIpad/>
+      : <PoliciesPageMobile/>}
       <Footer screenWidth={screenWidth} />
     </>
   );
