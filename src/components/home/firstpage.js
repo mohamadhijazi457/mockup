@@ -38,6 +38,7 @@ const FirstPage = () => {
 const ContainerOne = styled.div`
   justify-content: center;
   align-items: center;
+  font-family: HelveticaNeue-Medium;
 `;
 
 const FirstHeading = styled.div`
@@ -45,7 +46,6 @@ const FirstHeading = styled.div`
   align-items: center;
   text-align: center;
   flex-direction: column;
-  font-family: HelveticaNeue-Medium;
   padding: 50px 100px;
   padding-Bottom: 20px;
 `;

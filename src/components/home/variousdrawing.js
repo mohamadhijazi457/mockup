@@ -24,7 +24,7 @@ const VariousDrawing = ({ screenWidth }) => {
 									<Underline text='at your fingertips' src={UnderlineFingerprint} width='300' bottom='-18' left='-5' /></Text>
 							</div>
 						: <div>
-								<Image src={PngVariousMobile} height='750px' />
+								<Image src={PngVariousMobile} height='500px' />
 								<Text left='28' top='28' style={{ fontSize: '20px' }}>Various <Circle text='Drawing' src={CircleDrawing} width='100' top='25' left='-6' /> Tools<br/>
 									at your <Underline text='fingertips' src={UnderlineFingerprint} width='90' bottom='-18' /></Text>
 							</div>}

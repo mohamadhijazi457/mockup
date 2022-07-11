@@ -8,13 +8,13 @@ import Underline from '../common/underline';
 const PoliciesPageIpad = () => {
   return (
     <Container>
-      <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"80px",paddingLeft:"400px"}}>
+      <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"80px",paddingLeft:"400px"}}>
         <Circle text='Mockup' src={CircleSketchOut} width='160' top='-2' left='-12'  />
         <Underline text='Policies' src={UnderlinePaper} width='140' bottom='-20' left='-2' />
-      </h1>
+      </p>
              
       <FirstContainer>
-        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"60px"}}>Terms of Services</h1>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"60px"}}>Terms of Services</p>
         <TextOne>
         <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"15px",paddingLeft:"60px"}}>
         Mockup provides three free sketches for trial.<br/>
@@ -37,7 +37,7 @@ const PoliciesPageIpad = () => {
         </TextOne>
       </FirstContainer>
       <SecondContainer>
-        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"60px",paddingTop:"30px"}}>Privacy Policy</h1>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"60px",paddingTop:"30px"}}>Privacy Policy</p>
         <TextTwo>
         <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"50px"}}>
         The app does not collect or store any personal<br/>
@@ -52,7 +52,7 @@ const PoliciesPageIpad = () => {
         </p>
         </TextTwo>
         <TextThree>
-        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"60px",paddingTop:"30px"}}>Contact</h1>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"60px",paddingTop:"30px"}}>Contact</p>
         <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"50px",paddingTop:"30px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
 
         </p>

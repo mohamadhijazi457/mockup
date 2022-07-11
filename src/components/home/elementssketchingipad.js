@@ -36,7 +36,8 @@ reuse them to your convenience.
 
 };
 const FirstContainer = Styled.div`
-        
+	padding: 70px 0 70px 0;
+	background-color: #F1F1F6;
 `;
 const Text = Styled.div`
 

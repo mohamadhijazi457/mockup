@@ -8,12 +8,12 @@ import Underline from '../common/underline';
 const PoliciesPage = () => {
   return (
     <Container>
-      <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"80px", textAlign: "center"}}>
+      <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"80px", textAlign: "center"}}>
         <Circle text='Mockup ' src={CircleSketchOut} width='160' top='-2' left='-12'  />
         <Underline text='Policies' src={UnderlinePaper} width='140' bottom='-20' left='-2' />
-      </h1>
+      </p>
       <FirstContainer>
-        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px"}}>Terms of Services</h1>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px"}}>Terms of Services</p>
         <TextOne>
         <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",marginTop:"15px",paddingLeft:"150px"}}>Mockup provides three free sketches for trial. The app can be<br/>
         unlocked with lifetime purchase or a yearly subscription.<br/>
@@ -29,7 +29,7 @@ const PoliciesPage = () => {
         </TextOne>
       </FirstContainer>
       <SecondContainer>
-        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Privacy Policy</h1>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Privacy Policy</p>
         <TextTwo>
         <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"150px"}}>The app does not collect or store any personal data. All the user<br/>
         generated data is stored locally on device and on Apple’s iCloud. </p>
@@ -41,7 +41,7 @@ const PoliciesPage = () => {
         </p>
         </TextTwo>
         <TextThree>
-        <h1 style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Contact</h1>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"150px",paddingTop:"30px"}}>Contact</p>
         <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"150px",paddingTop:"30px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
 
         </p>
