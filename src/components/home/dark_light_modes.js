@@ -28,8 +28,7 @@ const DarkLightModes = ({ screenWidth }) => {
         : <div>
             <p style={{ fontSize: '34px' }}>
               <Circle text='Switch off' src={CircleSwitchOff} width='185' left='-8' /><br/>
-              between Dark<br/>and Light <Underline text='Modes' src={UnderlineDarkLight} width='115'
-              bottom='2' />
+              between Dark<br/>and Light <Underline text='Modes' src={UnderlineDarkLight} width='115' bottom='2' />
             </p><br/>
             <p>We love seeing the differences and the small<br />touches to your sketches and projects
               with<br />the dark and light mode transitions.<br />Design in dark mode to convey an elegant<br />and sleek
@@ -57,14 +56,14 @@ const DarkLightModes = ({ screenWidth }) => {
 };
 
 const DarkLightModesContainer = styled.div`
-  background: linear-gradient(to right, white 30%, black 0%);
+  background: linear-gradient(to right, white 455px, black 0%);
   color: white;
   font-family: HelveticaNeue-Medium;
   padding: 50px 0 60px 0;
   text-align: center;
 
   @media only screen and (max-width: 1025px) {
-    background: linear-gradient(to right, white 24%, black 0%);
+    background: linear-gradient(to right, white 250px, black 0%);
   }
 
   @media only screen and (max-width: 725px) {

@@ -119,6 +119,8 @@ const JoinButton = styled.button`
   margin: 25px 30px 0 0;
   cursor: pointer;
   border: none;
+  background-color: white;
+  color: black;
 
   @media only screen and (max-width: 600px) {
     margin-right: 0;
