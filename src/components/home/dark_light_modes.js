@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import DarkLightIpad from '../../images/dark_light_ipad.png';
 import DarkLightMobile from '../../images/dark_light_mobile.png';
@@ -40,15 +40,15 @@ const DarkLightModes = ({ screenWidth }) => {
       {screenWidth > 1025
       ? <IpadFlex>
           <IpadImage src={DarkLightIpad} />
-          <img style={{ marginLeft: '40px' }} src={ApplePencil} height='480px' />
+          <img style={{ marginLeft: '40px' }} src={ApplePencil} height='480px' alt='ipad_img' />
         </IpadFlex>
       : screenWidth <= 1025 && screenWidth > 964
       ? <IpadFlex>
-          <img style={{ marginLeft: '14px' }} src={ApplePencilIpad} width='520' />
+          <img style={{ marginLeft: '14px' }} src={ApplePencilIpad} width='520' alt='ipad_img' />
           <IpadImage src={DarkLightIpad} />
         </IpadFlex>
       : <IpadFlex>
-          <img src={ApplePencilMobile} width='280' />
+          <img src={ApplePencilMobile} width='280' alt='ipad_img' />
           <IpadImage src={DarkLightMobile} />
         </IpadFlex>}
     </DarkLightModesContainer>

@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import DrawBox from '../../images/text insertion section.png';
 
 const DrawingBoxPhone = ({ screenWidth })=> {
     return (
         <FirstContainer>
-            <img src={DrawBox} style={{paddingBottom:"20px"}} width="350px"height="200"/>
+            <img src={DrawBox} style={{paddingBottom:"20px"}} width="350px" height="200" alt="draw_box_img" />
             <p style={{textAlign:"center",fontSize:'20px',fontFamily:'HelveticaNeue-Regular',paddingBottom:'30px'}}>
                 Do you want your overall sketch to be<br/>
                 poised and stylish? Text insertion<br/>

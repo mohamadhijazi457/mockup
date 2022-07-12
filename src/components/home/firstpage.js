@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import FeaturedOnAppStore from '../../images/Featured on App Store.svg';
 import DownloadApp from '../../images/Download on the App Store button.svg';

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Styled from 'styled-components';
 import RightSideImg from '../../images/elements right.png';
 import LeftSideImg from '../../images/bottom list.png';

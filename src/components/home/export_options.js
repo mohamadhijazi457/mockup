@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PNGDoc from '../../images/PNG Doc.svg';
 import PDFDoc from '../../images/PDF Doc.svg';
@@ -13,9 +13,9 @@ const ExportOptions = ({ screenWidth }) => {
     <ExportOptionsContainer>
       {screenWidth > 1025
       ? <FlexWrapper>
-        <img src={PDFDoc} width='120' style={{ marginRight: '38px' }} />
-        <img src={PNGDoc} width='90' style={{ marginRight: '38px' }} />
-        <img src={MockupDoc} width='120' style={{ marginRight: '38px' }} />
+        <img src={PDFDoc} width='120' style={{ marginRight: '38px' }} alt='pdf_img' />
+        <img src={PNGDoc} width='90' style={{ marginRight: '38px' }} alt='png_img' />
+        <img src={MockupDoc} width='120' style={{ marginRight: '38px' }} alt='mockup_doc_img' />
         <div>
           <Title><Circle text='Export' src={CircleExport} width='140' top='-4' left='-20' /> options<br />
             for <Underline text='every scenario' src={UnderlineExport} width='250' bottom='-20' /></Title>
@@ -34,9 +34,9 @@ const ExportOptions = ({ screenWidth }) => {
             to share what you created and<br />exchange .mockup files with other users.</p>
         </div>
         <FlexWrapper>
-          <img src={PDFDoc} width='120' style={{ marginRight: '38px' }} />
-          <img src={PNGDoc} width='90' style={{ marginRight: '38px' }} />
-          <img src={MockupDoc} width='120' />
+          <img src={PDFDoc} width='120' style={{ marginRight: '38px' }} alt='pdf_img' />
+          <img src={PNGDoc} width='90' style={{ marginRight: '38px' }} alt='png_img' />
+          <img src={MockupDoc} width='120' alt='mockup_doc_img' />
         </FlexWrapper>
       </ColumnFlex>
     : <ColumnFlex>
@@ -48,9 +48,9 @@ const ExportOptions = ({ screenWidth }) => {
             to<br />share what you created and<br />exchange .mockup files with other users.</p>
         </div>
         <FlexWrapper>
-          <img src={PDFDoc} width='100' style={{ marginRight: '38px' }} />
-          <img src={PNGDoc} width='75' style={{ marginRight: '38px' }} />
-          <img src={MockupDoc} width='100' />
+          <img src={PDFDoc} width='100' style={{ marginRight: '38px' }} alt='pdf_img' />
+          <img src={PNGDoc} width='75' style={{ marginRight: '38px' }} alt='png_img' />
+          <img src={MockupDoc} width='100' alt='mockup_doc_img' />
         </FlexWrapper>
       </ColumnFlex>}
     </ExportOptionsContainer>

@@ -8,15 +8,15 @@ import Underline from '../common/underline';
 const PoliciesPage = () => {
   return (
     <Container>
-      <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"80px",paddingLeft:"70px", textAlign: "center"}}>
+      <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",textAlign: "center"}}>
         <Circle text='Mockup ' src={CircleSketchOut} width='160' top='-2' left='-12'  />
         <Underline text='Policies' src={UnderlinePaper} width='140' bottom='-20' left='-2' />
       </p>
              
       <FirstContainer>
-        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"35px"}}>Terms of Services</p>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px"}}>Terms of Services</p>
         <TextOne>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",marginTop:"15px",paddingLeft:"35px"}}>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",marginTop:"15px"}}>
         Mockup provides three free sketches for<br/>
         trial. The app can be unlocked with<br/>
         lifetime purchase or a yearly subscription.<br/>
@@ -26,7 +26,7 @@ const PoliciesPage = () => {
         Please contact Apple for help with<br/>
         refunds. 
         </p>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"40px",paddingLeft:"35px"}}>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"20px"}}>
         Subscription automatically renews and<br/>
         will be charged for the renewal unless<br/>
         auto-renew is turned off at least 24 hours<br/>
@@ -40,15 +40,15 @@ const PoliciesPage = () => {
         </TextOne>
       </FirstContainer>
       <SecondContainer>
-        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"35px",paddingTop:"30px"}}>Privacy Policy</p>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"30px",paddingTop:"30px"}}>Privacy Policy</p>
         <TextTwo>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",marginTop:"20px",paddingLeft:"33px"}}>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",marginTop:"20px"}}>
         The app does not collect or store any<br/>
         personal data. All the user generated data<br/>
         is stored locally on device and on Apple’s<br/>
         iCloud. 
           </p>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"40px",paddingLeft:"33px",fontColor:"black"}}>Analytics:<br/> 
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"20px",fontColor:"black"}}>Analytics:<br/> 
         Links to privacy policy of third party<br/>
         service providers used by the app:<br/>
         <a href='https://firebase.google.com/policies/analytics' target='blank' style={{color:'black'}}><u><b>Google Analytics for Firebase<br/>
@@ -57,8 +57,8 @@ const PoliciesPage = () => {
         </p>
         </TextTwo>
         <TextThree>
-        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingLeft:"35px",paddingTop:"30px"}}>Contact</p>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingLeft:"35px",paddingTop:"20px"}}>If you have any questions please<br/><a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
+        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"40px",paddingTop:"30px"}}>Contact</p>
+        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"20px"}}>If you have any questions please<br/><a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
 
         </p>
         </TextThree>
@@ -68,8 +68,8 @@ const PoliciesPage = () => {
 };
 const Container = styled.div`
   justify-content: center;
-  align-items: center;  
-  
+  align-items: center;
+  padding: 50px 30px 50px 30px;
 `;
 const TextOne = styled.div`
 	align-items: center;

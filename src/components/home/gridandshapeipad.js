@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PngGrid from '../../images/grid and shape detection section ipad.png'
 import CircleGrid from '../../images/Circle Grid.svg';
@@ -11,7 +11,7 @@ import Underline from '../common/underline';
 const GridAndShapeIpad = () => {
 	return(
 		<FirstContainer>
-			<img src={PngGrid} width="1020" height="1500" style={{paddingBottom:"60px",paddingTop:"60px"}}/>
+			<img src={PngGrid} width="1020" height="1500" style={{paddingBottom:"60px",paddingTop:"60px"}} alt="grid_img" />
 			<div style={{ position: 'absolute', left: '40%', top: '10%' }}>
 				<p style={{ fontSize: '34px' }}>
 					Flawless <Underline text='layouts' src={UnderlineLayouts} width='140' bottom='-10' /><br />

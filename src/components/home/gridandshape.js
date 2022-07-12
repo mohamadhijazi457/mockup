@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PngGrid from '../../images/grid and shape detection section.png'
 import CircleGrid from '../../images/Circle Grid.svg';

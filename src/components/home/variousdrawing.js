@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import styled from 'styled-components';
 import PngVarious from '../../images/drawing tools section.png'
 import PngVariousMobile from '../../images/drawing tools section ipad.png';
