@@ -24,12 +24,12 @@ const FirstPageMobile = () => {
       <ImgsMobile>
       <img src={FeaturedOnAppStore} width='65' height='30'  alt='FeaturedOnAppStore1_png' style={{ paddingRight:"20px", paddingTop:"20px" }} />
         <a href='https://apps.apple.com/app/mockup-sketch-ui-ux/id1527554407' target='blank'>
-        <img src={DownloadApp} width='65' height='30' alt='DownloadApp1_png' style={{ paddingTop:"23px" }} />
+          <img src={DownloadApp} width='65' height='30' alt='DownloadApp1_png' style={{ paddingTop:"23px" }} />
         </a>
       </ImgsMobile>
       <IpadImgContainer>
-          <img src={PenResponsive}  alt='PenImageMobile_png' style={{ width:"230px" ,height:"20px", paddingLeft:"158px" }}/>
-          <img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{ width:"340px" ,height:"300px", paddingLeft:"48px" }}/>
+        <div><img src={PenResponsive}  alt='PenImageMobile_png' style={{ width: '80%' }}/></div>
+        <div><img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{ width: '80%' }}/></div>
       </IpadImgContainer>
     </ContainerOneMobile>
   );
@@ -71,9 +71,10 @@ const IpadImgContainer = styled.div`
   display: flex;
   justify-content: column;
   flex-direction: column;
+  width: 100%;
 
-  @media only screen and (max-width: 960px) {
-    align-items: end;
+  @media only screen and (max-width: 964px) {
+    text-align: end;
   }
 `;
 

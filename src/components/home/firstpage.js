@@ -28,8 +28,8 @@ const FirstPage = () => {
         </a>
       </ImgsContainer>
       <IpadImgContainer>
-        <img src={IpadImg} alt='IpadeImage_png' style={{width:"900px" ,height:"550px", paddingLeft:"310px" }}/>
-        <img src={PenImg} alt='PenImage_png' style={{width:"730px" ,height:"510px", paddingRight:"180px" }}/>
+        <div><img src={IpadImg} alt='IpadeImage_png' style={{ width: '100%' }} /></div>
+        <div><img src={PenImg} alt='PenImage_png' style={{ width: '100%' }} /></div>
       </IpadImgContainer>
     </ContainerOne>
   );
@@ -72,6 +72,7 @@ const IpadImgContainer = styled.div`
   justify-content: center;
   flex-direction:row;
   align-items: center;
+  width: 100%;
 `;
 
 export default FirstPage;
