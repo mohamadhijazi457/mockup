@@ -40,7 +40,6 @@ const ICloudSync = ({ screenWidth }) => {
 
 const ICloudSyncContainer = styled.div`
   background-color: #F1F1F6;
-  font-family: HelveticaNeue-Medium;
   padding: 50px 0 60px 0;
 `;
 

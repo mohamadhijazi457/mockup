@@ -47,7 +47,6 @@ const JoinUs = ({ screenWidth }) => {
 const JoinUsContainer = styled.div`
   background-color: #1C1C1E;
   color: white;
-  font-family: HelveticaNeue-Medium;
   padding: 50px 0 60px 0;
   text-align: center;
 `;

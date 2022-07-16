@@ -12,10 +12,10 @@ const ElementsSketching = () => {
         <FirstContainer>
             <Left>
                 <Text>
-                    <p style={{fontFamily:"HelvaticaNeue-Medium", fontSize:"34px",paddingBottom:"15px"}}>
+                    <p style={{fontSize:"34px",paddingBottom:"15px"}}>
 											Premium <Circle text='Elements' src={CircleElements} width='160' top='-2' /><br/>
 											for sleek <Underline text='Sketching' src={UnderlineSketching} width='160' bottom='-14' left='5' /></p>
-                    <p style={{fontFamily:"HelvaticaNeue-Regular", fontSize:"20px"}}>
+                    <p style={{fontSize:"20px"}}>
 With elements involved in the mix, you can focus on your ideas<br/>
 while delivering clean, consistent sketches, ready to be rendered.<br/>
 Mockup comes with 28 pre-existing elements in the Mockup<br/>

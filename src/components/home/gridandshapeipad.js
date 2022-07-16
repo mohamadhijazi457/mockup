@@ -37,7 +37,6 @@ const FirstContainer = styled.div`
 	position: relative;
 	top: 0;
 	left: 0;
-	font-family: HelveticaNeue-Medium;
 `;
 
 export default GridAndShapeIpad;

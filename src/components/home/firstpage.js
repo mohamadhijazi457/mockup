@@ -38,7 +38,6 @@ const FirstPage = () => {
 const ContainerOne = styled.div`
   justify-content: center;
   align-items: center;
-  font-family: HelveticaNeue-Medium;
 `;
 
 const FirstHeading = styled.div`
@@ -55,7 +54,6 @@ const MockupDescription = styled.div`
   align-items: center;
   text-align: center;
   flex-direction: column;
-  font-family: HelveticaNeue-Regular;
   padding-bottom: 5px;
 `;
 

@@ -94,7 +94,6 @@ const BuiltExclusively = ({ screenWidth }) => {
 const BuiltExclusivelyContainer = styled.div`
   background-color: black;
   color: white;
-  font-family: HelveticaNeue-Medium;
   padding: 50px 0 60px 0;
 `;
 

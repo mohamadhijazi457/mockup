@@ -44,7 +44,6 @@ const NameContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center; 
-  font-family: HelveticaNeue-Medium;
 `;
 
 const RightSide = styled.div `
@@ -66,7 +65,6 @@ const GetAppbtn = styled.div`
   display: inline-block;
   font-size: 10px;
   border-radius: 5px;
-  font-family: HelveticaNeue-Bold;
 `;
 
 export default Navbar;

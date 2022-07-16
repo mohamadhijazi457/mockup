@@ -75,7 +75,6 @@ const SupportPage = ({ screenWidth }) => {
 
 const SupportContainer = styled.div`
   padding: 50px 0 70px 0;
-  font-family: HelveticaNeue-Medium;
 `;
 
 const FlexWrapper = styled.div`

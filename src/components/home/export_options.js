@@ -58,7 +58,6 @@ const ExportOptions = ({ screenWidth }) => {
 };
 
 const ExportOptionsContainer = styled.div`
-  font-family: HelveticaNeue-Medium;
   padding: 50px 0 60px 0;
 `;
 

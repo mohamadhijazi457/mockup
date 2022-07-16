@@ -40,7 +40,6 @@ const FirstContainer = styled.div`
 	position: relative;
 	top: 0;
 	left: 0;
-	font-family: HelveticaNeue-Medium;
 `;
 
 const FlexWrapper = styled.div`

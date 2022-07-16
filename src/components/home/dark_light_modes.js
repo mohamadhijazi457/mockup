@@ -58,7 +58,6 @@ const DarkLightModes = ({ screenWidth }) => {
 const DarkLightModesContainer = styled.div`
   background: linear-gradient(to right, white 455px, black 0%);
   color: white;
-  font-family: HelveticaNeue-Medium;
   padding: 50px 0 60px 0;
   text-align: center;
 

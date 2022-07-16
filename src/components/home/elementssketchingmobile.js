@@ -12,10 +12,10 @@ const ElementsSketchingMobile = () => {
         <FirstContainer>
             <Left>
                 <Text>
-                    <p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px",paddingLeft:"15px",textAlign:"center",paddingBottom:"40px",paddingTop:"70px"}}>
+                    <p style={{fontSize:"34px",paddingLeft:"15px",textAlign:"center",paddingBottom:"40px",paddingTop:"70px"}}>
 											Premium <Circle text='Elements' src={CircleElements} width='168' top='-2' /><br/>
 											for <Underline text='sleek Sketching' src={UnderlineSketching} width='280' bottom='-26' left='-4' /></p>
-                    <p style={{fontFamily:"HelvaticaNeue-Regular", fontSize:"20px",paddingLeft:"15px",paddingBottom:"30px",textAlign:"center"}}>
+                    <p style={{fontSize:"20px",paddingLeft:"15px",paddingBottom:"30px",textAlign:"center"}}>
 With elements involved in the mix, you can<br/>
 focus on your ideas while delivering <br/> 
 clean, consistent sketches, ready to be <br/>

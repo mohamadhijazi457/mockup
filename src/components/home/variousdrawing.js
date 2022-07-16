@@ -51,7 +51,6 @@ const Image = styled.img`
 `;
 
 const Text = styled.p`
-	font-family: HelveticaNeue-Medium;
 	position: absolute;
 	top: ${props => props.top || '0'}%;
 	left: ${props => props.left || '0'}%;

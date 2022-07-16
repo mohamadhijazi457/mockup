@@ -9,7 +9,7 @@ const DrawingBox = ({ screenWidth })=> {
                 
                 
                     <img src={DrawBox} width="708px" height="288" alt="draw_box_img" />
-                    <p style={{textAlign:"center",fontFamily:'HelveticaNeue-Regular'}}>
+                    <p style={{textAlign:"center"}}>
                     Do you want your overall sketch to be poised and stylish? Text<br/>
                     insertion headlines the show and keeps everything neat and well-<br/>
                     organized for you, whether you want to take notes and add some <br/>

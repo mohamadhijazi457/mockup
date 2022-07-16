@@ -54,7 +54,6 @@ const Footer = ({ screenWidth }) => {
 const FooterContainer = styled.div`
   background-color: black;
   color: white;
-  font-family: HelveticaNeue-Medium;
   font-size: 14px;
   padding: 50px 0 60px 0;
 `;

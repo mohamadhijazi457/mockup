@@ -6,7 +6,7 @@ const DrawingBoxPhone = ({ screenWidth })=> {
     return (
         <FirstContainer>
             <img src={DrawBox} style={{paddingBottom:"20px"}} width="350px" height="200" alt="draw_box_img" />
-            <p style={{textAlign:"center",fontSize:'20px',fontFamily:'HelveticaNeue-Regular',paddingBottom:'30px'}}>
+            <p style={{textAlign:"center",fontSize:'20px',paddingBottom:'30px'}}>
                 Do you want your overall sketch to be<br/>
                 poised and stylish? Text insertion<br/>
                 headlines the show and keeps everything<br/>

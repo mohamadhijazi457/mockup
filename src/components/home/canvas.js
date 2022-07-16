@@ -10,7 +10,7 @@ import Underline from '../common/underline';
 const Canvas = () => {
 	return (
 		<FirstContainer>
-			<p style={{fontFamily:"HelveticaNeue-Medium", fontSize:"34px",paddingLeft:"1px",textAlign:"center",paddingBottom:"60px",paddingTop:"70px"}}>
+			<p style={{fontSize:"34px",paddingLeft:"1px",textAlign:"center",paddingBottom:"60px",paddingTop:"70px"}}>
 				Flexible <Circle text='Canvas and' src={CircleCanvas} width='140' top='4' left='16' /> slick <br/>
 				<Underline text='Quick Actions' src={UnderlineQuickActions} width='220' bottom='-24' left='20' /></p>
 			<ImgsContainer>

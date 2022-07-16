@@ -8,15 +8,15 @@ import Underline from '../common/underline';
 const PoliciesPageIpad = () => {
   return (
     <Container>
-      <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px", textAlign: 'center'}}>
+      <p style={{fontSize:"34px", textAlign: 'center'}}>
         <Circle text='Mockup' src={CircleSketchOut} width='160' top='-2' left='-12'  />
         <Underline text='Policies' src={UnderlinePaper} width='140' bottom='-20' left='-2' />
       </p>
              
       <FirstContainer>
-        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"60px"}}>Terms of Services</p>
+        <p style={{fontSize:"34px",marginTop:"60px"}}>Terms of Services</p>
         <TextOne>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"15px"}}>
+        <p style={{fontSize:"20px",paddingTop:"15px"}}>
         Mockup provides three free sketches for trial.<br/>
         The app can be unlocked with lifetime purchase<br/>
         or a yearly subscription.<br/>
@@ -24,7 +24,7 @@ const PoliciesPageIpad = () => {
         purchases, can only be refunded by Apple and<br/>
         with Apple’s consent.<br/>
         Please contact Apple for help with refunds. </p>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"60px"}}>
+        <p style={{fontSize:"20px",paddingTop:"60px"}}>
         Subscription automatically renews and will be<br/>
         charged for the renewal unless auto-renew is<br/>
         turned off at least 24 hours before the end of the<br/>
@@ -37,13 +37,13 @@ const PoliciesPageIpad = () => {
         </TextOne>
       </FirstContainer>
       <SecondContainer>
-        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingTop:"30px"}}>Privacy Policy</p>
+        <p style={{fontSize:"34px",marginTop:"50px",paddingTop:"30px"}}>Privacy Policy</p>
         <TextTwo>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px"}}>
+        <p style={{fontSize:"20px"}}>
         The app does not collect or store any personal<br/>
         data. All the user generated data is stored locally<br/>
         on device and on Apple’s iCloud. </p>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"40px",fontColor:"black"}}>Analytics:<br/> 
+        <p style={{fontSize:"20px",paddingTop:"40px",fontColor:"black"}}>Analytics:<br/> 
         Links to privacy policy of third party service<br/>
         providers used by the app:<br/>
         <a href='https://firebase.google.com/policies/analytics' target='blank' style={{color:'black'}}><u><b>Google Analytics for Firebase<br/>
@@ -52,8 +52,8 @@ const PoliciesPageIpad = () => {
         </p>
         </TextTwo>
         <TextThree>
-        <p style={{fontFamily:"HelveticaNeue-Medium" ,fontSize:"34px",marginTop:"50px",paddingTop:"30px"}}>Contact</p>
-        <p style={{fontFamily:"HelveticaNeue-Regular" ,fontSize:"20px",paddingTop:"30px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
+        <p style={{fontSize:"34px",marginTop:"50px",paddingTop:"30px"}}>Contact</p>
+        <p style={{fontSize:"20px",paddingTop:"30px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
 
         </p>
         </TextThree>
