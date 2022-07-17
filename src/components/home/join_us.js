@@ -27,15 +27,15 @@ const JoinUs = ({ screenWidth }) => {
           <ShapeImage src={Shape} />
           <BorderImage src={BorderScreen} />
           <Rectangle />
-          <Text>Discover new ways Mockup can assist you, stay up to date on all Mockup-related news,
-            and share your work with other users.</Text>
+          <Text>Discover new ways Mockup can<br />assist you, stay up to date on all<br />Mockup-related news,
+            and share<br />your work with other users.</Text>
         </ShapeContainer>
         <ShapeContainer>
           <ShapeImage src={Shape} />
           <BorderImage src={BorderScreen} />
           <Rectangle />
-          <Text style={{ left: '5%', width: '270px' }}>Help us improve the app with your feedback. Add your suggestions and keep
-            us posted about bugs you’re facing.</Text>
+          <Text style={{ left: '9%' }}>Help us improve the app with your<br />feedback. Add your suggestions<br />and keep
+            us posted about bugs<br />you’re facing.</Text>
         </ShapeContainer>
       </ShapeFlex>
 
@@ -57,7 +57,7 @@ const ShapeFlex = styled.div`
   justify-content: center;
   margin-top: 20px;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 625px) {
     flex-direction: column;
     align-items: center;
     
@@ -73,7 +73,7 @@ const ShapeContainer = styled.div`
   top: 0;
   left: 0;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 625px) {
     margin-right: 0;
   }
 `;
@@ -105,8 +105,7 @@ const Rectangle = styled.div`
 const Text = styled.p`
   position: absolute;
   top: 50%;
-  left: 3%;
-  width: 280px;
+  left: 11%;
 `;
 
 const JoinButton = styled.button`
@@ -121,7 +120,7 @@ const JoinButton = styled.button`
   background-color: white;
   color: black;
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 625px) {
     margin-right: 0;
   }
 `;
