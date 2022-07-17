@@ -1,3 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="233.25" height="63.258" viewBox="0 0 233.25 63.258">
-  <path id="circle_Mockup" data-name="circle Mockup" d="M700.772,128.369c-36.769-4.046-73.784-8.1-110.928-6.912s-74.824,7.942-105.86,23.917c-4.512,2.323-8.959,4.9-11.957,8.4s-4.336,8.087-2.234,11.934c2.789,5.1,10.372,7.352,17.255,8.865,54.82,12.053,114.626,10.329,168.333-4.85,11.568-3.27,24.346-8.5,26.71-17.857,1.884-7.455-4.054-15.041-12.184-19.239s-18.065-5.666-27.75-6.751a488.26,488.26,0,0,0-136.3,3.968" transform="translate(-467.632 -120.252)" fill="none" stroke="#387fed" stroke-miterlimit="10" stroke-width="2"/>
+  <style>
+    path {
+      stroke-dasharray: 10;
+      stroke-dashoffset: 10;
+      transition: stroke-dashoffset 1s ease;
+      animation: draw 3s ease infinite;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+  </style>
+  <path id="circle_Mockup" data-name="circle Mockup" d="M700.772,128.369c-36.769-4.046-73.784-8.1-110.928-6.912s-74.824,7.942-105.86,23.917c-4.512,2.323-8.959,4.9-11.957,8.4s-4.336,8.087-2.234,11.934c2.789,5.1,10.372,7.352,17.255,8.865,54.82,12.053,114.626,10.329,168.333-4.85,11.568-3.27,24.346-8.5,26.71-17.857,1.884-7.455-4.054-15.041-12.184-19.239s-18.065-5.666-27.75-6.751a488.26,488.26,0,0,0-136.3,3.968" transform="translate(-467.632 -120.252)" fill="none" stroke="#387fed" stroke-miterlimit="10" stroke-width="2" pathLength="10" />
 </svg>

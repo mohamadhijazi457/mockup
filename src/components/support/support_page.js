@@ -15,58 +15,62 @@ const SupportPage = ({ screenWidth }) => {
         {screenWidth > 1025
         ? <FlexWrapper>
             <SupportElement>
-              <img src={IPadUser} style={{ position: 'relative', marginRight: '20px' }} alt='ipad_img' />
+              <img src={IPadUser} style={{ position: 'relative', top: '0', left: '0', marginRight: '20px' }} alt='ipad_img' />
               <p style={{ position: 'absolute', top: '45%', left: '32%' }}> <a href ='https://community.getmockup.app/c/how-to/7' target='blank' style={{color:'black'}}><b><u>User Guides</u></b></a></p>
-              <p style={{ position: 'absolute', top: '55%', left: '20%' }}>Instructions explaining<br />how to use Mockup.</p>
+              <p style={{ position: 'absolute', top: '55%', left: '22%', marginTop: '5px' }}>Instructions explaining<br />how to use Mockup.</p>
             </SupportElement>
 
             <SupportElement>
-              <img src={IpadCommunity} style={{ marginRight: '20px' }} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '28%' }}> <a href ='https://community.getmockup.app/' target='blank' style={{color:'black'}}><b><u>Community Help</u></b></a></p> 
-              <p style={{ position: 'absolute', top: '55%', left: '12%' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
+              <img src={IpadCommunity} style={{ position: 'relative', top: '0', left: '0', marginRight: '20px' }} alt='ipad_img' />
+              <p style={{ position: 'absolute', top: '45%', left: '25%' }}> <a href ='https://community.getmockup.app/' target='blank' style={{color:'black'}}><b><u>Community Help</u></b></a></p> 
+              <p style={{ position: 'absolute', top: '55%', left: '14%', marginTop: '5px' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
             </SupportElement>
             
             <SupportElement>
-              <img src={IpadEmail} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '32%' }}> <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><b><u>Email Support</u></b></a></p>
-              <p style={{ position: 'absolute', top: '55%', left: '18%' }}>Get in touch. We’d love to<br />answer your questions.</p>
+              <img src={IpadEmail} style={{ position: 'relative', top: '0', left: '0' }} alt='ipad_img' />
+              <p style={{ position: 'absolute', top: '45%', left: '31%' }}> <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><b><u>Email Support</u></b></a></p>
+              <p style={{ position: 'absolute', top: '55%', left: '18%', marginTop: '5px' }}>Get in touch. We’d love to<br />answer your questions.</p>
             </SupportElement>
           </FlexWrapper>
         : screenWidth <= 1025 && screenWidth > 964
         ? <FlexWrapper>
-            <SupportElement>
-              <img src={IPadUser} style={{ marginRight: '20px' }} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '30%' }}><a href ='https://community.getmockup.app/c/how-to/7' target='blank' style={{color:'black'}}><b><u>User Guides</u></b></a></p>
-              <p style={{ position: 'absolute', top: '55%', left: '24%' }}>Instructions explaining how<br />to use Mockup.</p>
+            <div style={{ display: 'flex' }}>
+              <SupportElement>
+                <img src={IPadUser} style={{ position: 'relative', top: '0', left: '0', marginRight: '20px' }} alt='ipad_img' />
+                <p style={{ position: 'absolute', top: '45%', left: '32%' }}> <a href ='https://community.getmockup.app/c/how-to/7' target='blank' style={{color:'black'}}><b><u>User Guides</u></b></a></p>
+              <p style={{ position: 'absolute', top: '55%', left: '16%', marginTop: '8px' }}>Instructions explaining how<br />to use Mockup.</p>
+              </SupportElement>
 
-              <img src={IpadCommunity} style={{ marginRight: '20px' }} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '58%' }}><a href ='https://community.getmockup.app/' target='blank' style={{color:'black'}}><b><u>Community Help</u></b></a></p> 
-              <p style={{ position: 'absolute', top: '55%', left: '54%' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
-            </SupportElement>
+              <SupportElement>
+                <img src={IpadCommunity} style={{ position: 'relative', top: '0', left: '0' }} alt='ipad_img' />
+                <p style={{ position: 'absolute', top: '45%', left: '28%' }}> <a href ='https://community.getmockup.app/' target='blank' style={{color:'black'}}><b><u>Community Help</u></b></a></p> 
+              <p style={{ position: 'absolute', top: '55%', left: '16%', marginTop: '8px' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
+              </SupportElement>
+            </div>
             
             <SupportElement>
-              <img src={IpadEmail} style={{  marginTop: '20px'}} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '45%' }}><a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><b><u>Email Support</u></b></a></p>
-              <p style={{ position: 'absolute', top: '55%', left: '41%' }}>Get in touch. We’d love to<br />answer your questions.</p>
+              <img src={IpadEmail} style={{ position: 'relative', top: '0', left: '0', marginTop: '8px' }} alt='ipad_img' />
+              <p style={{ position: 'absolute', top: '45%', left: '31%' }}> <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><b><u>Email Support</u></b></a></p>
+              <p style={{ position: 'absolute', top: '55%', left: '18%', marginTop: '8px' }}>Get in touch. We’d love to<br />answer your questions.</p>
             </SupportElement>
           </FlexWrapper>
         : <FlexWrapper>
             <SupportElement>
-              <img src={IPadUser} style={{ marginBottom: '20px' }} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '38%' }}><a href ='https://community.getmockup.app/c/how-to/7' target='blank' style={{color:'black'}}><b><u>User Guides</u></b></a></p>
-              <p style={{ position: 'absolute', top: '55%', left: '28%' }}>Instructions explaining<br />how to use Mockup.</p>
+              <img src={IPadUser} style={{ position: 'relative', top: '0', left: '0' }} alt='ipad_img' />
+              <p style={{ position: 'absolute', top: '45%', left: '33%' }}> <a href ='https://community.getmockup.app/c/how-to/7' target='blank' style={{color:'black'}}><b><u>User Guides</u></b></a></p>
+              <p style={{ position: 'absolute', top: '55%', left: '22%', marginTop: '5px' }}>Instructions explaining<br />how to use Mockup.</p>
             </SupportElement>
 
             <SupportElement>
-              <img src={IpadCommunity} style={{ marginBottom: '20px' }} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '34%' }}><a href ='https://community.getmockup.app/' target='blank' style={{color:'black'}}><b><u>Community Help</u></b></a></p> 
-              <p style={{ position: 'absolute', top: '55%', left: '23%' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
+              <img src={IpadCommunity} style={{ position: 'relative', top: '0', left: '0', marginTop: '20px' }} alt='ipad_img' />
+              <p style={{ position: 'absolute', top: '45%', left: '27%' }}> <a href ='https://community.getmockup.app/' target='blank' style={{color:'black'}}><b><u>Community Help</u></b></a></p> 
+              <p style={{ position: 'absolute', top: '55%', left: '14%', marginTop: '5px' }}>Let’s discuss your problem.<br />Others may benefit as well. </p>
             </SupportElement>
             
             <SupportElement>
-              <img src={IpadEmail} alt='ipad_img' />
-              <p style={{ position: 'absolute', top: '45%', left: '37%' }}><a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><b><u>Email Support</u></b></a></p>
-              <p style={{ position: 'absolute', top: '55%', left: '26%' }}>Get in touch. We’d love to<br />answer your questions.</p>
+              <img src={IpadEmail} style={{ position: 'relative', top: '0', left: '0', marginTop: '20px' }} alt='ipad_img' />
+              <p style={{ position: 'absolute', top: '45%', left: '31%' }}> <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><b><u>Email Support</u></b></a></p>
+              <p style={{ position: 'absolute', top: '55%', left: '18%', marginTop: '5px' }}>Get in touch. We’d love to<br />answer your questions.</p>
             </SupportElement>
           </FlexWrapper>}
     </SupportContainer>
@@ -74,13 +78,18 @@ const SupportPage = ({ screenWidth }) => {
 };
 
 const SupportContainer = styled.div`
-  padding: 50px 0 70px 0;
+  padding: 100px 0 100px 0;
+
+  @media only screen and (max-width: 964px) {
+    padding: 50px 0 50px 0;
+  }
 `;
 
 const FlexWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin-top: 50px;
 
   @media only screen and (max-width: 1025px) {
