@@ -28,7 +28,7 @@ const FirstPage = () => {
         </a>
       </ImgsContainer>
       <IpadImgContainer>
-        <div style={{ marginLeft: '60px', width: '700px' }}><img src={IpadImg} alt='IpadeImage_png' style={{ width: '100%' }} /></div>
+        <div style={{ marginLeft: '100px', width: '700px' }}><img src={IpadImg} alt='IpadeImage_png' style={{ width: '100%' }} /></div>
         <div style={{ marginLeft: '60px', width: '50px' }}><img src={PenImg} alt='PenImage_png' style={{ width: '100%' }} /></div>
       </IpadImgContainer>
     </ContainerOne>
