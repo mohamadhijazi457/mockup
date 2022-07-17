@@ -28,8 +28,8 @@ const FirstPageIpad = () => {
         </a>
       </ImgsMobile>
       <IpadImgContainer>
-        <div style={{ textAlign: 'center' }}><img src={PenResponsive}  alt='PenImageMobile_png' style={{ width: '60%' }}/></div>
-        <div><img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{ width: '100%' }}/></div>
+        <div style={{ width: '500px', marginTop: '50px' }}><img src={PenResponsive}  alt='PenImageMobile_png' style={{ width: '100%' }}/></div>
+        <div style={{ width: '850px' }}><img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{ width: '100%' }}/></div>
       </IpadImgContainer>
     </ContainerOneMobile>
   );
@@ -68,6 +68,9 @@ const ImgsMobile =styled.div`
 
 const IpadImgContainer = styled.div`
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
     
 export default FirstPageIpad;

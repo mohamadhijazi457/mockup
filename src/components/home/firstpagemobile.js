@@ -28,8 +28,8 @@ const FirstPageMobile = () => {
         </a>
       </ImgsMobile>
       <IpadImgContainer>
-        <div><img src={PenResponsive}  alt='PenImageMobile_png' style={{ width: '80%' }}/></div>
-        <div><img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{ width: '80%' }}/></div>
+        <div style={{ width: '225px', marginTop: '20px' }}><img src={PenResponsive}  alt='PenImageMobile_png' style={{ width: '100%' }}/></div>
+        <div style={{ width: '360px' }}><img src={IpadResponsive}  alt='IpadeImageMobile_png' style={{ width: '100%' }}/></div>
       </IpadImgContainer>
     </ContainerOneMobile>
   );
@@ -73,7 +73,7 @@ const IpadImgContainer = styled.div`
   width: 100%;
 
   @media only screen and (max-width: 964px) {
-    text-align: end;
+    align-items: end;
   }
 `;
 
