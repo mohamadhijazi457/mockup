@@ -38,6 +38,7 @@ const FirstPage = () => {
 const ContainerOne = styled.div`
   justify-content: center;
   align-items: center;
+  padding-top: 70px;
 `;
 
 const FirstHeading = styled.div`

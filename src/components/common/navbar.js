@@ -22,8 +22,12 @@ const NavbarContainer = styled.div `
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 10px 5px 30px;
-  border-bottom: 0.25px solid black ;
+  padding: 5px 30px;
+  border-bottom: 0.25px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
 `;
 
 const LeftContainer=styled.div`
@@ -52,6 +56,7 @@ const RightSide = styled.div `
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-right: 30px;
 `;
 
 const GetAppbtn = styled.div`
