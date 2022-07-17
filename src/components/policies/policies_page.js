@@ -12,47 +12,43 @@ const PoliciesPage = () => {
         <Circle text='Mockup ' src={CircleSketchOut} width='160' top='-2' left='-12'  />
         <Underline text='Policies' src={UnderlinePaper} width='140' bottom='-20' left='-2' />
       </p>
-      <FirstContainer>
-        <p style={{fontSize:"34px",marginTop:"50px"}}>Terms of Services</p>
-        <TextOne>
-        <p style={{fontSize:"20px",marginTop:"15px"}}>Mockup provides three free sketches for trial. The app can be<br/>
+      <p style={{fontSize:"36px",marginTop:"50px"}}>Terms of Services</p>
+      <TextOne>
+        <p>Mockup provides three free sketches for trial. The app can be<br/>
         unlocked with lifetime purchase or a yearly subscription.<br/>
         All payments handled by Apple, such as in-app purchases, can<br/>
         only be refunded by Apple and with Apple’s consent.<br/>
         Please contact Apple for help with refunds. </p>
-        <p style={{fontSize:"20px",paddingTop:"40px"}}>Subscription automatically renews and will be charged for the renewal<br/>
+        <p style={{ marginTop:"20px" }}>Subscription automatically renews and will be charged for the renewal<br/>
         unless auto-renew is turned off at least 24 hours before the end of the<br/>
         current period.<br/>
         Payment will be charged to iTunes Account at confirmation of purchase.<br/>
         The duration and price of each subscription is displayed on the purchase<br/>
         screen, and updated at the time of purchase.</p>
-        </TextOne>
-      </FirstContainer>
-      <SecondContainer>
-        <p style={{fontSize:"34px",marginTop:"50px",paddingTop:"30px"}}>Privacy Policy</p>
-        <TextTwo>
-        <p style={{fontSize:"20px"}}>The app does not collect or store any personal data. All the user<br/>
+      </TextOne>
+      <p style={{fontSize:"36px",marginTop:"50px"}}>Privacy Policy</p>
+      <TextTwo style={{ marginTop: '-30px' }}>
+        <p>The app does not collect or store any personal data. All the user<br/>
         generated data is stored locally on device and on Apple’s iCloud. </p>
-        <p style={{fontSize:"20px",paddingTop:"40px",fontColor:"black"}}>Analytics:<br/> 
+        <p style={{paddingTop:"40px",fontColor:"black"}}>Analytics:<br/> 
         Links to privacy policy of third party service providers used by the app:<br/>
         <a href='https://firebase.google.com/policies/analytics' target='blank' style={{color:'black'}}><u><b>Google Analytics for Firebase<br/>
         Firebase Crashlytics
         </b></u></a>
         </p>
-        </TextTwo>
-        <TextThree>
-        <p style={{fontSize:"34px",marginTop:"50px", paddingTop:"30px"}}>Contact</p>
-        <p style={{fontSize:"20px",paddingTop:"30px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
+      </TextTwo>
+      <TextThree>
+        <p style={{fontSize:"36px",marginTop:"50px", paddingTop:"30px"}}>Contact</p>
+        <p style={{paddingTop:"20px"}}>If you have any questions please <a href='mailto:contact@getmockup.app?' target='blank' style={{color:'black'}}><u><b>get in touch</b></u></a>
 
         </p>
-        </TextThree>
-      </SecondContainer>
+      </TextThree>
     </Container>
   );
 };
 const Container = styled.div`
-  justify-content: center;
-  align-items: center;  
+  width: 65%;
+  margin: 0 auto;
   padding: 80px 200px 80px 200px;
 `;
 const TextOne = styled.div`

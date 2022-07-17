@@ -12,7 +12,7 @@ const Policies = ({ screenWidth }) => {
       {screenWidth > 1025
       ? <PoliciesPage />
       : screenWidth <= 1025 && screenWidth > 964
-      ? <PoliciesPageIpad/>
+      ? <PoliciesPage/>
       : <PoliciesPageMobile/>}
       <Footer screenWidth={screenWidth} />
     </>
